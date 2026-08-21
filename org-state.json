@@ -1,0 +1,905 @@
+{
+  "version": "1.0.0",
+  "schema": "org-state-v1",
+  "last_updated": "2026-08-21T04:21:54.260398+00:00",
+  "agents": {
+    "accounting-automation": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "ai-ops-coordinator": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "ai-safety-engineer": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "ai-safety-engineer-30min": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-15",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-15.md",
+          "size_bytes": 2836,
+          "modified": "2026-08-15T03:33:32.202817+00:00"
+        },
+        {
+          "date": "2026-08-16",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-16.md",
+          "size_bytes": 186,
+          "modified": "2026-08-16T03:01:29.591194+00:00"
+        },
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-17.md",
+          "size_bytes": 154,
+          "modified": "2026-08-17T03:01:10.673821+00:00"
+        }
+      ],
+      "brief_count": 3,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-17.md",
+        "size_bytes": 154,
+        "modified": "2026-08-17T03:01:10.673821+00:00"
+      }
+    },
+    "bizops-tracker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "business-analyst": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/business-analyst/outbox/2026-08-13.md",
+          "size_bytes": 420,
+          "modified": "2026-08-13T20:20:13.692100+00:00"
+        },
+        {
+          "date": "2026-08-14",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/business-analyst/outbox/2026-08-14.md",
+          "size_bytes": 226,
+          "modified": "2026-08-14T10:31:39.023355+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-14",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/business-analyst/outbox/2026-08-14.md",
+        "size_bytes": 226,
+        "modified": "2026-08-14T10:31:39.023355+00:00"
+      }
+    },
+    "chaos-test-runner": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "citation-checker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "coach-cohort-facilitator": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-cohort-facilitator/outbox/2026-08-17.md",
+          "size_bytes": 543,
+          "modified": "2026-08-17T12:48:27.154908+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-cohort-facilitator/outbox/2026-08-17.md",
+        "size_bytes": 543,
+        "modified": "2026-08-17T12:48:27.154908+00:00"
+      }
+    },
+    "coach-conversion-agent": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-conversion-agent/outbox/2026-08-17.md",
+          "size_bytes": 600,
+          "modified": "2026-08-17T12:48:27.155367+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-conversion-agent/outbox/2026-08-17.md",
+        "size_bytes": 600,
+        "modified": "2026-08-17T12:48:27.155367+00:00"
+      }
+    },
+    "coach-ivan": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-ivan/outbox/2026-08-17.md",
+          "size_bytes": 685,
+          "modified": "2026-08-17T12:48:27.153521+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-ivan/outbox/2026-08-17.md",
+        "size_bytes": 685,
+        "modified": "2026-08-17T12:48:27.153521+00:00"
+      }
+    },
+    "coach-kiki": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-kiki/outbox/2026-08-17.md",
+          "size_bytes": 595,
+          "modified": "2026-08-17T12:48:27.153675+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-kiki/outbox/2026-08-17.md",
+        "size_bytes": 595,
+        "modified": "2026-08-17T12:48:27.153675+00:00"
+      }
+    },
+    "coach-lead-agents": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-lead-agents/outbox/2026-08-17.md",
+          "size_bytes": 624,
+          "modified": "2026-08-17T12:48:27.153901+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-lead-agents/outbox/2026-08-17.md",
+        "size_bytes": 624,
+        "modified": "2026-08-17T12:48:27.153901+00:00"
+      }
+    },
+    "coach-lead-finder": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-lead-finder/outbox/2026-08-17.md",
+          "size_bytes": 738,
+          "modified": "2026-08-17T12:48:27.155288+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-lead-finder/outbox/2026-08-17.md",
+        "size_bytes": 738,
+        "modified": "2026-08-17T12:48:27.155288+00:00"
+      }
+    },
+    "coach-onboarding": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-onboarding/outbox/2026-08-17.md",
+          "size_bytes": 641,
+          "modified": "2026-08-17T12:48:27.155040+00:00"
+        },
+        {
+          "date": "2026-08-21",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-onboarding/outbox/2026-08-21.md",
+          "size_bytes": 517,
+          "modified": "2026-08-21T03:58:33.260785+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-21",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-onboarding/outbox/2026-08-21.md",
+        "size_bytes": 517,
+        "modified": "2026-08-21T03:58:33.260785+00:00"
+      }
+    },
+    "coach-org": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-org/outbox/2026-08-17.md",
+          "size_bytes": 591,
+          "modified": "2026-08-17T12:48:27.153772+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-org/outbox/2026-08-17.md",
+        "size_bytes": 591,
+        "modified": "2026-08-17T12:48:27.153772+00:00"
+      }
+    },
+    "coach-practitioner": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-practitioner/outbox/2026-08-17.md",
+          "size_bytes": 635,
+          "modified": "2026-08-17T12:48:27.154763+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-practitioner/outbox/2026-08-17.md",
+        "size_bytes": 635,
+        "modified": "2026-08-17T12:48:27.154763+00:00"
+      }
+    },
+    "coach-renewal-manager": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-renewal-manager/outbox/2026-08-17.md",
+          "size_bytes": 630,
+          "modified": "2026-08-17T12:48:27.155118+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-renewal-manager/outbox/2026-08-17.md",
+        "size_bytes": 630,
+        "modified": "2026-08-17T12:48:27.155118+00:00"
+      }
+    },
+    "coach-roi-tracker": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coach-roi-tracker/outbox/2026-08-17.md",
+          "size_bytes": 593,
+          "modified": "2026-08-17T12:48:27.155193+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coach-roi-tracker/outbox/2026-08-17.md",
+        "size_bytes": 593,
+        "modified": "2026-08-17T12:48:27.155193+00:00"
+      }
+    },
+    "coaching-content-curator": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coaching-content-curator/outbox/2026-08-17.md",
+          "size_bytes": 552,
+          "modified": "2026-08-17T12:48:27.154005+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coaching-content-curator/outbox/2026-08-17.md",
+        "size_bytes": 552,
+        "modified": "2026-08-17T12:48:27.154005+00:00"
+      }
+    },
+    "coaching-quality-reviewer": {
+      "state_data": {
+        "agent": "coaching-quality-reviewer",
+        "last_run": "2026-08-16T02:34:32.596862",
+        "sessions_reviewed": [
+          "coach-ivan",
+          "coach-kiki",
+          "coach-practitioner",
+          "coach-onboarding",
+          "coach-cohort-facilitator",
+          "coach-lead-agents",
+          "coach-lead-finder",
+          "coach-renewal-manager",
+          "coach-roi-tracker"
+        ],
+        "total_reviews": 1,
+        "issues_found": 0,
+        "escalations_triggered": 0,
+        "output_file": "/opt/data/agents/coaching-quality-reviewer/outbox/2026-08-16.md",
+        "next_review": "2026-08-16"
+      },
+      "briefs": [
+        {
+          "date": "2026-08-15",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coaching-quality-reviewer/outbox/2026-08-15.md",
+          "size_bytes": 4200,
+          "modified": "2026-08-15T03:33:16.043717+00:00"
+        },
+        {
+          "date": "2026-08-16",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coaching-quality-reviewer/outbox/2026-08-16.md",
+          "size_bytes": 534,
+          "modified": "2026-08-16T02:34:32.596788+00:00"
+        },
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coaching-quality-reviewer/outbox/2026-08-17.md",
+          "size_bytes": 1032,
+          "modified": "2026-08-17T12:49:02.890288+00:00"
+        }
+      ],
+      "brief_count": 3,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coaching-quality-reviewer/outbox/2026-08-17.md",
+        "size_bytes": 1032,
+        "modified": "2026-08-17T12:49:02.890288+00:00"
+      }
+    },
+    "coaching-research-intelligence": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/coaching-research-intelligence/outbox/2026-08-17.md",
+          "size_bytes": 684,
+          "modified": "2026-08-17T12:48:27.154469+00:00"
+        }
+      ],
+      "brief_count": 1,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/coaching-research-intelligence/outbox/2026-08-17.md",
+        "size_bytes": 684,
+        "modified": "2026-08-17T12:48:27.154469+00:00"
+      }
+    },
+    "compliance-monitor": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "course-producer": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "devops-monitor": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "devops-monitor-30min": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-15",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-15.md",
+          "size_bytes": 1379,
+          "modified": "2026-08-15T03:34:14.694693+00:00"
+        },
+        {
+          "date": "2026-08-16",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-16.md",
+          "size_bytes": 1010,
+          "modified": "2026-08-16T03:04:18.238500+00:00"
+        },
+        {
+          "date": "2026-08-17",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-17.md",
+          "size_bytes": 8598,
+          "modified": "2026-08-17T02:31:30.203981+00:00"
+        }
+      ],
+      "brief_count": 3,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-17.md",
+        "size_bytes": 8598,
+        "modified": "2026-08-17T02:31:30.203981+00:00"
+      }
+    },
+    "engineering-roster": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/engineering-roster/outbox/2026-08-13.md",
+          "size_bytes": 913,
+          "modified": "2026-08-13T16:31:05.823954+00:00"
+        },
+        {
+          "date": "2026-08-14",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/engineering-roster/outbox/2026-08-14.md",
+          "size_bytes": 518,
+          "modified": "2026-08-14T20:29:51.862430+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-14",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/engineering-roster/outbox/2026-08-14.md",
+        "size_bytes": 518,
+        "modified": "2026-08-14T20:29:51.862430+00:00"
+      }
+    },
+    "eval-gate-runner": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "finance-controller": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "$(date -u +%Y-%m-%d)",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/finance-controller/outbox/$(date -u +%Y-%m-%d).md",
+          "size_bytes": 227,
+          "modified": "2026-08-14T21:28:30.754217+00:00"
+        },
+        {
+          "date": "2026-08-13",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/finance-controller/outbox/2026-08-13.md",
+          "size_bytes": 735,
+          "modified": "2026-08-13T16:31:05.807953+00:00"
+        },
+        {
+          "date": "2026-08-14",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/finance-controller/outbox/2026-08-14.md",
+          "size_bytes": 507,
+          "modified": "2026-08-14T20:29:51.861252+00:00"
+        }
+      ],
+      "brief_count": 3,
+      "latest_brief": {
+        "date": "2026-08-14",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/finance-controller/outbox/2026-08-14.md",
+        "size_bytes": 507,
+        "modified": "2026-08-14T20:29:51.861252+00:00"
+      }
+    },
+    "founder-bandwidth-watchdog": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "funding-coordinator": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "kiki-coach": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13",
+          "subdir": "lessons",
+          "path": "/opt/data/agents/kiki-coach/lessons/2026-08-13.md",
+          "size_bytes": 1761,
+          "modified": "2026-08-13T16:21:59.700663+00:00"
+        },
+        {
+          "date": "2026-08-17",
+          "subdir": "lessons",
+          "path": "/opt/data/agents/kiki-coach/lessons/2026-08-17.md",
+          "size_bytes": 1614,
+          "modified": "2026-08-17T12:49:43.283040+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-17",
+        "subdir": "lessons",
+        "path": "/opt/data/agents/kiki-coach/lessons/2026-08-17.md",
+        "size_bytes": 1614,
+        "modified": "2026-08-17T12:49:43.283040+00:00"
+      }
+    },
+    "lead-enrichment": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "management-coordinator": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/management-coordinator/outbox/2026-08-13.md",
+          "size_bytes": 346,
+          "modified": "2026-08-13T21:01:00.814188+00:00"
+        },
+        {
+          "date": "2026-08-15",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/management-coordinator/outbox/2026-08-15.md",
+          "size_bytes": 852,
+          "modified": "2026-08-15T00:20:41.386982+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-15",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/management-coordinator/outbox/2026-08-15.md",
+        "size_bytes": 852,
+        "modified": "2026-08-15T00:20:41.386982+00:00"
+      }
+    },
+    "marketing-content-producer": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "multimedia-producer": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "okr-tracker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "procurement-tracker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "proposal-drafter": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "qa-automation-runner": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "research-tracker": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/research-tracker/outbox/2026-08-13.md",
+          "size_bytes": 990,
+          "modified": "2026-08-13T16:31:05.809051+00:00"
+        },
+        {
+          "date": "2026-08-14",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/research-tracker/outbox/2026-08-14.md",
+          "size_bytes": 596,
+          "modified": "2026-08-14T20:29:51.862493+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-14",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/research-tracker/outbox/2026-08-14.md",
+        "size_bytes": 596,
+        "modified": "2026-08-14T20:29:51.862493+00:00"
+      }
+    },
+    "revops-pipeline-analyzer": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "sales-pipeline": {
+      "state_data": {},
+      "briefs": [
+        {
+          "date": "2026-08-13-0900",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/sales-pipeline/outbox/2026-08-13-0900.md",
+          "size_bytes": 563,
+          "modified": "2026-08-13T16:31:05.809051+00:00"
+        },
+        {
+          "date": "2026-08-14",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/sales-pipeline/outbox/2026-08-14.md",
+          "size_bytes": 453,
+          "modified": "2026-08-14T20:29:51.862361+00:00"
+        }
+      ],
+      "brief_count": 2,
+      "latest_brief": {
+        "date": "2026-08-14",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/sales-pipeline/outbox/2026-08-14.md",
+        "size_bytes": 453,
+        "modified": "2026-08-14T20:29:51.862361+00:00"
+      }
+    },
+    "security-watchdog": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "source-curator": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "tax-receipt-tracker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    },
+    "thesis-tracker": {
+      "state_data": {},
+      "briefs": [],
+      "brief_count": 0,
+      "latest_brief": null
+    }
+  },
+  "global": {
+    "customers": [
+      {
+        "customer_id": "cus_test123",
+        "name": "Test Customer",
+        "email": "test@example.com",
+        "amount": 500,
+        "currency": "PYG",
+        "tier": "M",
+        "vertical": "legal",
+        "language": "es",
+        "source": "custom",
+        "raw": {
+          "id": "test-001",
+          "customer_id": "cus_test123",
+          "name": "Test Customer",
+          "email": "test@example.com",
+          "amount": 500,
+          "currency": "PYG",
+          "tier": "M",
+          "vertical": "legal",
+          "language": "es"
+        },
+        "received_at": "2026-08-21T03:56:31.914543+00:00",
+        "onboarded": true,
+        "webhook_id": "test-001",
+        "onboarded_at": "2026-08-21T03:58:32.224498+00:00"
+      },
+      {
+        "customer_id": "mp-001",
+        "name": null,
+        "email": null,
+        "amount": null,
+        "currency": "PYG",
+        "tier": "S",
+        "vertical": "unknown",
+        "language": "es",
+        "source": "custom",
+        "raw": {
+          "id": "mp-001",
+          "payer": {
+            "id": "cus_mp123",
+            "email": "client@example.com",
+            "first_name": "Maria",
+            "last_name": "Gonzalez"
+          },
+          "transaction_amount": 1500,
+          "currency_id": "PYG",
+          "metadata": {
+            "tier": "L",
+            "vertical": "dental",
+            "language": "es"
+          }
+        },
+        "received_at": "2026-08-21T03:56:46.617890+00:00",
+        "onboarded": true,
+        "webhook_id": "mp-001",
+        "onboarded_at": "2026-08-21T03:58:32.725419+00:00"
+      },
+      {
+        "customer_id": "cus_mp_real",
+        "name": "Maria Gonzalez",
+        "email": "real@example.com",
+        "amount": 1500,
+        "currency": "PYG",
+        "tier": "L",
+        "vertical": "dental",
+        "language": "es",
+        "source": "mercadopago",
+        "raw": {
+          "id": "mp-002",
+          "payer": {
+            "id": "cus_mp_real",
+            "email": "real@example.com",
+            "first_name": "Maria",
+            "last_name": "Gonzalez"
+          },
+          "transaction_amount": 1500,
+          "currency_id": "PYG",
+          "metadata": {
+            "tier": "L",
+            "vertical": "dental",
+            "language": "es"
+          }
+        },
+        "received_at": "2026-08-21T03:57:00.015294+00:00",
+        "onboarded": true,
+        "webhook_id": "mp-002",
+        "onboarded_at": "2026-08-21T03:58:33.260520+00:00"
+      }
+    ],
+    "coaching": {
+      "cus_test123": {
+        "name": "Test Customer",
+        "email": "test@example.com",
+        "tier": "M",
+        "vertical": "legal",
+        "language": "es",
+        "source": "custom",
+        "amount": 500,
+        "currency": "PYG",
+        "onboarding_started": "2026-08-21T03:58:32.224290+00:00",
+        "onboarding_step": "day-1-consent",
+        "consent_sent": true,
+        "consent_approved": false
+      },
+      "mp-001": {
+        "name": "Customer",
+        "email": null,
+        "tier": "S",
+        "vertical": "unknown",
+        "language": "es",
+        "source": "custom",
+        "amount": null,
+        "currency": "PYG",
+        "onboarding_started": "2026-08-21T03:58:32.725149+00:00",
+        "onboarding_step": "day-1-consent",
+        "consent_sent": true,
+        "consent_approved": false
+      },
+      "cus_mp_real": {
+        "name": "Maria Gonzalez",
+        "email": "real@example.com",
+        "tier": "L",
+        "vertical": "dental",
+        "language": "es",
+        "source": "mercadopago",
+        "amount": 1500,
+        "currency": "PYG",
+        "onboarding_started": "2026-08-21T03:58:33.260282+00:00",
+        "onboarding_step": "day-1-consent",
+        "consent_sent": true,
+        "consent_approved": false
+      }
+    },
+    "webhook_log_count": 48
+  },
+  "cron": {
+    "total_jobs": 93,
+    "enabled": 69,
+    "no_agent_scripts": 47,
+    "live_active": 69
+  },
+  "eval_gate": {
+    "last_run_id": 96,
+    "last_run_ts": "2026-08-21T04:00:31.668561+00:00",
+    "last_total": 1,
+    "last_pass": 1,
+    "last_fail": 0,
+    "all_runs": 96,
+    "all_pass": 233,
+    "all_fail": 36
+  },
+  "metrics": {
+    "agents_total": 47,
+    "agents_with_state": 1,
+    "agents_with_briefs": 23,
+    "total_briefs": 38,
+    "customers_total": 3,
+    "customers_onboarded": 3,
+    "coaching_pipeline": 3,
+    "mrr_usd": 0,
+    "burn_usd_month": 0
+  },
+  "sources": {
+    "agents_state_dir": "/opt/data/agents/state/",
+    "global_state_dir": "/opt/data/state",
+    "cron_file": "/opt/data/cron/jobs.json",
+    "db_dir": "/opt/data/db"
+  }
+}

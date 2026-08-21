@@ -1,0 +1,93 @@
+{
+  "customers": [
+    {
+      "customer_id": "cus_test123",
+      "name": "Test Customer",
+      "email": "test@example.com",
+      "amount": 500,
+      "currency": "PYG",
+      "tier": "M",
+      "vertical": "legal",
+      "language": "es",
+      "source": "custom",
+      "raw": {
+        "id": "test-001",
+        "customer_id": "cus_test123",
+        "name": "Test Customer",
+        "email": "test@example.com",
+        "amount": 500,
+        "currency": "PYG",
+        "tier": "M",
+        "vertical": "legal",
+        "language": "es"
+      },
+      "received_at": "2026-08-21T03:56:31.914543+00:00",
+      "onboarded": true,
+      "webhook_id": "test-001",
+      "onboarded_at": "2026-08-21T03:58:32.224498+00:00"
+    },
+    {
+      "customer_id": "mp-001",
+      "name": null,
+      "email": null,
+      "amount": null,
+      "currency": "PYG",
+      "tier": "S",
+      "vertical": "unknown",
+      "language": "es",
+      "source": "custom",
+      "raw": {
+        "id": "mp-001",
+        "payer": {
+          "id": "cus_mp123",
+          "email": "client@example.com",
+          "first_name": "Maria",
+          "last_name": "Gonzalez"
+        },
+        "transaction_amount": 1500,
+        "currency_id": "PYG",
+        "metadata": {
+          "tier": "L",
+          "vertical": "dental",
+          "language": "es"
+        }
+      },
+      "received_at": "2026-08-21T03:56:46.617890+00:00",
+      "onboarded": true,
+      "webhook_id": "mp-001",
+      "onboarded_at": "2026-08-21T03:58:32.725419+00:00"
+    },
+    {
+      "customer_id": "cus_mp_real",
+      "name": "Maria Gonzalez",
+      "email": "real@example.com",
+      "amount": 1500,
+      "currency": "PYG",
+      "tier": "L",
+      "vertical": "dental",
+      "language": "es",
+      "source": "mercadopago",
+      "raw": {
+        "id": "mp-002",
+        "payer": {
+          "id": "cus_mp_real",
+          "email": "real@example.com",
+          "first_name": "Maria",
+          "last_name": "Gonzalez"
+        },
+        "transaction_amount": 1500,
+        "currency_id": "PYG",
+        "metadata": {
+          "tier": "L",
+          "vertical": "dental",
+          "language": "es"
+        }
+      },
+      "received_at": "2026-08-21T03:57:00.015294+00:00",
+      "onboarded": true,
+      "webhook_id": "mp-002",
+      "onboarded_at": "2026-08-21T03:58:33.260520+00:00"
+    }
+  ],
+  "last_updated": "2026-08-21T03:57:00.015367+00:00"
+}

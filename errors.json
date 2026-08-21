@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "schema": "errors-v1",
+  "last_updated": "2026-08-21T04:15:33.596986+00:00",
+  "total_errors": 15,
+  "unique_jobs_affected": 9,
+  "errors_by_type": {
+    "unknown": 8,
+    "billing": 1
+  },
+  "errors": [
+    {
+      "job": "repo-ci-monitor",
+      "error_count": 1,
+      "first_seen": "2026-08-14T20:25:52Z",
+      "last_seen": "2026-08-14T20:25:52Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T20:25:52Z] [ERROR] cron job 'repo-ci-monitor' is in error state"
+    },
+    {
+      "job": "thesis-watchdog",
+      "error_count": 1,
+      "first_seen": "2026-08-14T20:25:52Z",
+      "last_seen": "2026-08-14T20:25:52Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T20:25:52Z] [ERROR] cron job 'thesis-watchdog' is in error state"
+    },
+    {
+      "job": "evo-poll-watchdog",
+      "error_count": 1,
+      "first_seen": "2026-08-14T20:25:52Z",
+      "last_seen": "2026-08-14T20:25:52Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T20:25:52Z] [ERROR] cron job 'evo-poll-watchdog' is in error state"
+    },
+    {
+      "job": "aiw-sales-pipeline-daily",
+      "error_count": 1,
+      "first_seen": "2026-08-14T20:25:52Z",
+      "last_seen": "2026-08-14T20:25:52Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T20:25:52Z] [ERROR] cron job 'aiw-sales-pipeline-daily' is in error state"
+    },
+    {
+      "job": "aiw-engineering-roster-biwk",
+      "error_count": 1,
+      "first_seen": "2026-08-14T20:25:52Z",
+      "last_seen": "2026-08-14T20:25:52Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T20:25:52Z] [ERROR] cron job 'aiw-engineering-roster-biwk' is in error state"
+    },
+    {
+      "job": "aiw-kiki-coach-weekly",
+      "error_count": 1,
+      "first_seen": "2026-08-14T21:04:09Z",
+      "last_seen": "2026-08-14T21:04:09Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T21:04:09Z] [ERROR] cron job 'aiw-kiki-coach-weekly' is in error state"
+    },
+    {
+      "job": "aiw-finance-controller-weekly",
+      "error_count": 1,
+      "first_seen": "2026-08-14T21:04:09Z",
+      "last_seen": "2026-08-14T21:04:09Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T21:04:09Z] [ERROR] cron job 'aiw-finance-controller-weekly' is in error state"
+    },
+    {
+      "job": "aiw-dashboard-refresh",
+      "error_count": 1,
+      "first_seen": "2026-08-14T21:04:09Z",
+      "last_seen": "2026-08-14T21:04:09Z",
+      "type": "unknown",
+      "code": null,
+      "retry_after_seconds": null,
+      "suggestion": "Check logs and retry",
+      "sample_raw": "[2026-08-14T21:04:09Z] [ERROR] cron job 'aiw-dashboard-refresh' is in error state"
+    },
+    {
+      "job": "unknown",
+      "error_count": 7,
+      "first_seen": "2026-08-21T04:15:33.596684+00:00",
+      "last_seen": "2026-08-21T04:15:33.596734+00:00",
+      "type": "billing",
+      "code": 402,
+      "retry_after_seconds": null,
+      "suggestion": "Top up LLM credits (OpenRouter $20) or switch providers",
+      "sample_raw": "    RuntimeError: HTTP 402: litellm.APIError: APIError: CerebrasException - Payment required to access this resource. Visit your billing tab.. Received Model Group=primary"
+    }
+  ]
+}
