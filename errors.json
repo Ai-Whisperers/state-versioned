@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "schema": "errors-v1",
-  "last_updated": "2026-08-21T04:30:36.236598+00:00",
-  "total_errors": 18,
+  "last_updated": "2026-08-21T04:45:35.620672+00:00",
+  "total_errors": 11,
   "unique_jobs_affected": 9,
   "errors_by_type": {
     "unknown": 8,
@@ -99,9 +99,9 @@
     },
     {
       "job": "unknown",
-      "error_count": 10,
-      "first_seen": "2026-08-21T04:30:36.236095+00:00",
-      "last_seen": "2026-08-21T04:30:36.236154+00:00",
+      "error_count": 3,
+      "first_seen": "2026-08-21T04:45:35.620398+00:00",
+      "last_seen": "2026-08-21T04:45:35.620435+00:00",
       "type": "billing",
       "code": 402,
       "retry_after_seconds": null,

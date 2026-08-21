@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "schema": "org-state-v1",
-  "last_updated": "2026-08-21T04:21:54.260398+00:00",
+  "last_updated": "2026-08-21T04:30:54.426404+00:00",
   "agents": {
     "accounting-automation": {
       "state_data": {},
@@ -870,10 +870,10 @@
     "webhook_log_count": 48
   },
   "cron": {
-    "total_jobs": 93,
-    "enabled": 69,
-    "no_agent_scripts": 47,
-    "live_active": 69
+    "total_jobs": 94,
+    "enabled": 70,
+    "no_agent_scripts": 48,
+    "live_active": 70
   },
   "eval_gate": {
     "last_run_id": 96,
@@ -883,7 +883,9 @@
     "last_fail": 0,
     "all_runs": 96,
     "all_pass": 233,
-    "all_fail": 36
+    "all_fail": 36,
+    "all_briefs_evaluated": 269,
+    "pass_rate_pct": 86.6
   },
   "metrics": {
     "agents_total": 47,
