@@ -6,7 +6,7 @@
       "email": "test@example.com",
       "amount": 500,
       "currency": "PYG",
-      "tier": "M",
+      "tier": "S",
       "vertical": "legal",
       "language": "es",
       "source": "custom",
