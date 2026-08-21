@@ -1,0 +1,47 @@
+{
+  "customers": {
+    "cus_test123": {
+      "name": "Test Customer",
+      "email": "test@example.com",
+      "tier": "M",
+      "vertical": "legal",
+      "language": "es",
+      "source": "custom",
+      "amount": 500,
+      "currency": "PYG",
+      "onboarding_started": "2026-08-21T03:58:32.224290+00:00",
+      "onboarding_step": "day-1-consent",
+      "consent_sent": true,
+      "consent_approved": false
+    },
+    "mp-001": {
+      "name": "Customer",
+      "email": null,
+      "tier": "S",
+      "vertical": "unknown",
+      "language": "es",
+      "source": "custom",
+      "amount": null,
+      "currency": "PYG",
+      "onboarding_started": "2026-08-21T03:58:32.725149+00:00",
+      "onboarding_step": "day-1-consent",
+      "consent_sent": true,
+      "consent_approved": false
+    },
+    "cus_mp_real": {
+      "name": "Maria Gonzalez",
+      "email": "real@example.com",
+      "tier": "L",
+      "vertical": "dental",
+      "language": "es",
+      "source": "mercadopago",
+      "amount": 1500,
+      "currency": "PYG",
+      "onboarding_started": "2026-08-21T03:58:33.260282+00:00",
+      "onboarding_step": "day-1-consent",
+      "consent_sent": true,
+      "consent_approved": false
+    }
+  },
+  "last_updated": "2026-08-21T03:58:33.260298+00:00"
+}
