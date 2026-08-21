@@ -24,7 +24,7 @@
       "received_at": "2026-08-21T03:56:31.914543+00:00",
       "onboarded": true,
       "webhook_id": "test-001",
-      "onboarded_at": "2026-08-21T03:58:32.224498+00:00"
+      "onboarded_at": "2026-08-21T05:23:13.763991+00:00"
     },
     {
       "customer_id": "mp-001",
@@ -55,7 +55,7 @@
       "received_at": "2026-08-21T03:56:46.617890+00:00",
       "onboarded": true,
       "webhook_id": "mp-001",
-      "onboarded_at": "2026-08-21T03:58:32.725419+00:00"
+      "onboarded_at": "2026-08-21T05:23:13.774957+00:00"
     },
     {
       "customer_id": "cus_mp_real",
@@ -86,7 +86,7 @@
       "received_at": "2026-08-21T03:57:00.015294+00:00",
       "onboarded": true,
       "webhook_id": "mp-002",
-      "onboarded_at": "2026-08-21T03:58:33.260520+00:00"
+      "onboarded_at": "2026-08-21T05:23:13.829535+00:00"
     }
   ],
   "last_updated": "2026-08-21T03:57:00.015367+00:00"

@@ -9,9 +9,9 @@
       "source": "custom",
       "amount": 500,
       "currency": "PYG",
-      "onboarding_started": "2026-08-21T03:58:32.224290+00:00",
+      "onboarding_started": "2026-08-21T05:23:13.763666+00:00",
       "onboarding_step": "day-1-consent",
-      "consent_sent": true,
+      "day_1_consent_sent": false,
       "consent_approved": false
     },
     "mp-001": {
@@ -23,9 +23,9 @@
       "source": "custom",
       "amount": null,
       "currency": "PYG",
-      "onboarding_started": "2026-08-21T03:58:32.725149+00:00",
+      "onboarding_started": "2026-08-21T05:23:13.774682+00:00",
       "onboarding_step": "day-1-consent",
-      "consent_sent": true,
+      "day_1_consent_sent": false,
       "consent_approved": false
     },
     "cus_mp_real": {
@@ -37,11 +37,11 @@
       "source": "mercadopago",
       "amount": 1500,
       "currency": "PYG",
-      "onboarding_started": "2026-08-21T03:58:33.260282+00:00",
+      "onboarding_started": "2026-08-21T05:23:13.829221+00:00",
       "onboarding_step": "day-1-consent",
-      "consent_sent": true,
+      "day_1_consent_sent": false,
       "consent_approved": false
     }
   },
-  "last_updated": "2026-08-21T03:58:33.260298+00:00"
+  "last_updated": "2026-08-21T05:23:13.829266+00:00"
 }
