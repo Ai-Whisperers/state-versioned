@@ -461,7 +461,7 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 14,
+      "brief_count": 15,
       "briefs": [
         {
           "date": "2026-08-22-1100",
@@ -571,14 +571,21 @@
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1600-brief.md",
           "size_bytes": 10387,
           "subdir": "outbox"
+        },
+        {
+          "date": "2026-08-22",
+          "modified": "2026-08-22T17:02:48.184+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1700-brief.md",
+          "size_bytes": 9975,
+          "subdir": "outbox"
         }
       ],
       "last_run": "2026-08-22T13:00:16+00:00",
       "latest_brief": {
         "date": "2026-08-22",
-        "modified": "2026-08-22T16:02:12.484021+00:00",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1600-brief.md",
-        "size_bytes": 10387,
+        "modified": "2026-08-22T17:02:48.184+00:00",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1700-brief.md",
+        "size_bytes": 9975,
         "subdir": "outbox"
       },
       "state_data": {
