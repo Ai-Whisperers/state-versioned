@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 4,
+      "brief_count": 5,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -57,23 +57,29 @@
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
           ]
+        },
+        {
+          "date": "2026-08-22",
+          "tick": 28,
+          "modified": "2026-08-22T21:01:10+00:00",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22-tick28.md",
+          "size_bytes": 4968,
+          "subdir": "outbox",
+          "n_prior_chain": 16,
+          "n_today": 16,
+          "delivery": "SILENT (saturation)"
         }
       ],
       "latest_brief": {
         "date": "2026-08-22",
-        "delivery": "SILENT (saturation)",
-        "modified": "2026-08-22T12:30:55.838911+00:00",
-        "n_prior_chain": 18,
-        "n_today": 1,
-        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22.md",
-        "size_bytes": 3607,
+        "tick": 28,
+        "modified": "2026-08-22T21:01:10+00:00",
+        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22-tick28.md",
+        "size_bytes": 4968,
         "subdir": "outbox",
-        "tick": 13,
-        "violations": 2,
-        "violator_paths": [
-          "/opt/data/agents/board-of-directors/PROMPT.md",
-          "/opt/data/agents/people-hr/PROMPT.md"
-        ]
+        "n_prior_chain": 16,
+        "n_today": 16,
+        "delivery": "SILENT (saturation)"
       },
       "state_data": {}
     },
