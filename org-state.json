@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "schema": "org-state-v1",
-  "last_updated": "2026-08-21T04:30:54.426404+00:00",
+  "last_updated": "2026-08-22T07:32:12.837796+00:00",
   "agents": {
     "accounting-automation": {
       "state_data": {},
@@ -444,6 +444,15 @@
         {
           "date": "2026-08-22",
           "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0730-brief.md",
+          "size_bytes": 9702,
+          "modified": "2026-08-22T07:32:12.837770+00:00",
+          "status": "ALERT",
+          "verdict": "ALERT unchanged. Honesty correction: 07:00 parking \"improvement\" was transient dip, this tick rebounded to 169/30min = 5.45/min (baseline). LiteLLM cooldown still holding (0x 402). Load 5m/15m actually de-escalating \u2014 07:00 brief over-stated climbing trend. Bridge errors +1,890 in 30min (+1.05/sec) undrained. Cron drift 11,587s = 193 min lead, +54s/min. Public endpoints 200, native LiteLLM 9119 + dashboard 9120 healthy. Gateway restarted 03:31 UTC (4h uptime)."
+        },
+        {
+          "date": "2026-08-22",
+          "subdir": "outbox",
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0700-brief.md",
           "size_bytes": 9261,
           "modified": "2026-08-22T07:02:03+00:00",
@@ -487,14 +496,15 @@
           "status": "ALERT"
         }
       ],
-      "brief_count": 6,
+      "brief_count": 7,
       "latest_brief": {
         "date": "2026-08-22",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0700-brief.md",
-        "size_bytes": 9261,
-        "modified": "2026-08-22T07:02:03+00:00",
+        "subdir": "outbox",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0730-brief.md",
+        "size_bytes": 9702,
+        "modified": "2026-08-22T07:32:12.837770+00:00",
         "status": "ALERT",
-        "verdict": "ALERT persistent. Two improvements: MCP parking -61% (5.37 to 2.07/min), LiteLLM 402=0 in window. Load climbing 1m/5m/15m +20/+83/+65%, free mem halved (1.34 to 0.38 GiB). Bridge errors +5,431 in 90min (53,632 lifetime, +1.0/sec). Docker daemon DOWN unchanged. Canonical drift 9,953s = 166 min lead. 3 new structural config drift issues (revops PROMPT.md missing, departments/03-devops-infrastructure.md empty/missing, coaching skill v1 not found). Public endpoints all 200, LiteLLM 9119 healthy."
+        "verdict": "ALERT unchanged. Honesty correction: 07:00 parking \"improvement\" was transient dip, this tick rebounded to 169/30min = 5.45/min (baseline). LiteLLM cooldown still holding (0x 402). Load 5m/15m actually de-escalating \u2014 07:00 brief over-stated climbing trend. Bridge errors +1,890 in 30min (+1.05/sec) undrained. Cron drift 11,587s = 193 min lead, +54s/min. Public endpoints 200, native LiteLLM 9119 + dashboard 9120 healthy. Gateway restarted 03:31 UTC (4h uptime)."
       },
       "last_run": "2026-08-22T07:02:03+00:00"
     },
