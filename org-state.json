@@ -763,9 +763,41 @@
       "state_data": {}
     },
     "qa-automation-runner": {
-      "brief_count": 0,
-      "briefs": [],
-      "latest_brief": null,
+      "brief_count": 1,
+      "briefs": [
+        {
+          "timestamp": "2026-08-22T14:07:10+00:00",
+          "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
+          "verdict": "ALERT",
+          "highlights": [
+            "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
+            "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
+            "paragu-ai-builder#378,#379 \u2014 merge-conflict dirty",
+            "8 dependabot PRs \u2014 stale or CI-failing",
+            "PROMPT.md path mismatch + Cerebras 402 broke last 3 runs"
+          ],
+          "open_prs": 25,
+          "open_with_no_review": 25,
+          "scrub_prs_blocked": 10,
+          "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md"
+        }
+      ],
+      "latest_brief": {
+        "timestamp": "2026-08-22T14:07:10+00:00",
+        "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
+        "verdict": "ALERT",
+        "highlights": [
+          "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
+          "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
+          "paragu-ai-builder#378,#379 \u2014 merge-conflict dirty",
+          "8 dependabot PRs \u2014 stale or CI-failing",
+          "PROMPT.md path mismatch + Cerebras 402 broke last 3 runs"
+        ],
+        "open_prs": 25,
+        "open_with_no_review": 25,
+        "scrub_prs_blocked": 10,
+        "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md"
+      },
       "state_data": {}
     },
     "research-tracker": {
@@ -1016,7 +1048,7 @@
     "webhook_log_count": 48,
     "last_devops_run": "2026-08-22T13:00:16+00:00"
   },
-  "last_updated": "2026-08-22T12:30:39.750384+00:00",
+  "last_updated": "2026-08-22T14:07:48.730492+00:00",
   "metrics": {
     "agents_total": 47,
     "agents_with_briefs": 23,
