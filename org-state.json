@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 5,
+      "brief_count": 6,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -68,17 +68,28 @@
           "n_prior_chain": 16,
           "n_today": 16,
           "delivery": "SILENT (saturation)"
+        },
+        {
+          "date": "2026-08-22",
+          "tick": 33,
+          "modified": "2026-08-22T23:00:59Z",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22.md",
+          "size_bytes": 2943,
+          "subdir": "outbox",
+          "n_prior_chain": 20,
+          "n_today": 21,
+          "delivery": "SILENT (saturation)"
         }
       ],
       "latest_brief": {
         "date": "2026-08-22",
-        "tick": 28,
-        "modified": "2026-08-22T21:01:10+00:00",
-        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22-tick28.md",
-        "size_bytes": 4968,
+        "tick": 33,
+        "modified": "2026-08-22T23:00:59Z",
+        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22.md",
+        "size_bytes": 2943,
         "subdir": "outbox",
-        "n_prior_chain": 16,
-        "n_today": 16,
+        "n_prior_chain": 20,
+        "n_today": 21,
         "delivery": "SILENT (saturation)"
       },
       "state_data": {}
