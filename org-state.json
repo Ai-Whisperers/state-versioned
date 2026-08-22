@@ -463,13 +463,15 @@
           "modified": "2026-08-17T02:31:30.203981+00:00"
         }
       ],
-      "brief_count": 3,
+      "brief_count": 4,
       "latest_brief": {
-        "date": "2026-08-17",
+        "date": "2026-08-22",
         "subdir": "outbox",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-17.md",
-        "size_bytes": 8598,
-        "modified": "2026-08-17T02:31:30.203981+00:00"
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22.md",
+        "size_bytes": null,
+        "modified": "2026-08-22T00:00:51+00:00",
+        "status": "ALERT",
+        "verdict": "Hermes CLI venv broken; LiteLLM 402; docker down; traefik down; multiple cron jobs failing"
       }
     },
     "engineering-roster": {
@@ -903,5 +905,12 @@
     "global_state_dir": "/opt/data/state",
     "cron_file": "/opt/data/cron/jobs.json",
     "db_dir": "/opt/data/db"
-  }
+  },
+  "brief_history": [
+    {
+      "agent": "devops-monitor-30min",
+      "ts": "2026-08-22T00:00:51+00:00",
+      "status": "ALERT"
+    }
+  ]
 }
