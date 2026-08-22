@@ -468,11 +468,12 @@
         "date": "2026-08-22",
         "subdir": "outbox",
         "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22.md",
-        "size_bytes": null,
-        "modified": "2026-08-22T00:00:51+00:00",
+        "size_bytes": 27271,
+        "modified": "2026-08-22T02:05:38+00:00",
         "status": "ALERT",
-        "verdict": "Hermes CLI venv broken; LiteLLM 402; docker down; traefik down; multiple cron jobs failing"
-      }
+        "verdict": "MCP parking storm plateaued at 3.0/min; 70 LiteLLM/Cerebras 402s in 30min (cooldown expired, calls failing inline); Traefik/LiteLLM HTTP still 000; messaging-bridge reconnects 6/30min + evo_poll bridge-post Connection refused every poll; DOCKER DAEMON DOWN (was UP at 01:00 brief \u2014 NEW regression); canonical drift 19.06h; Hermes CLI venv broken"
+      },
+      "last_run": "2026-08-22T02:05:38+00:00"
     },
     "engineering-roster": {
       "state_data": {},
