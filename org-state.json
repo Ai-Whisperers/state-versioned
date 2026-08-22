@@ -442,6 +442,15 @@
       "state_data": {},
       "briefs": [
         {
+          "date": "2026-08-22-1000",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1000-brief.md",
+          "size_bytes": 10732,
+          "modified": "2026-08-22T10:01:42.132909+00:00",
+          "status": "ALERT",
+          "verdict": "ALERT escalated. Gateway RESTARTED at 09:30:50 UTC (telegram credential collision across 7 profiles \u2014 default/engineering/finance/kiki/operations/people/research/sales all claimed same token). New gateway PID 3455950, 30min stable, 332MiB. WA bridge FAILURE MODE CHANGED: bridge.js process NOT running (was running at 08:30); all reconnect attempts timeout 30s; evo_poll errors now [Errno 111] Connection refused vs generic prior; 7 evo_poll instances (was 6) all polling to dead bridge; outbound WA undeliverable. MCP parking BURST 1979/90min = 21.9/min (11x 08:30 baseline) \u2014 likely tied to gateway restart cycling stdio watchdogs. QDRANT_URL has literal {env:QDRANT_URL} not expanded. evo_poll lifetime errors 64,918 (+5,616 in 90min = ~1.04/sec). Canonical drift 20,641s = 5.73h (+5,446s in 90min = 60.5s/min). Telegram updater stalled at 10:01:13 \u2014 monitor 10:30. Docker daemon DOWN 8.5h+. Hermes CLI venv broken (persistent). Background denials quieter (2 in 90min)."
+        },
+        {
           "date": "2026-08-22",
           "subdir": "outbox",
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0730-brief.md",
@@ -505,13 +514,13 @@
       ],
       "brief_count": 8,
       "latest_brief": {
-        "date": "2026-08-22-0830",
+        "date": "2026-08-22-1000",
         "subdir": "outbox",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0830-brief.md",
-        "size_bytes": 9648,
-        "modified": "2026-08-22T08:31:30+00:00"
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1000-brief.md",
+        "size_bytes": 10732,
+        "modified": "2026-08-22T10:01:42.132933+00:00"
       },
-      "last_run": "2026-08-22T07:02:03+00:00"
+      "last_run": "2026-08-22T10:01:42.132936+00:00"
     },
     "engineering-roster": {
       "state_data": {},
