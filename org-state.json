@@ -461,6 +461,15 @@
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-17.md",
           "size_bytes": 8598,
           "modified": "2026-08-17T02:31:30.203981+00:00"
+        },
+        {
+          "date": "2026-08-22",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22.md",
+          "size_bytes": 35537,
+          "modified": "2026-08-22T02:32:08.095101+00:00",
+          "status": "ALERT",
+          "verdict": "MCP parking plateaued 2.6/min (78/30min, slight decline from 90); LiteLLM 402 silent this window (0 events vs 70) \u2014 possible quiet recovery but unconfirmed; messaging-bridge reconnects 10/30min (+67%), evo_poll bridge-post 38,097 lifetime errors (100% fail rate, outbound queue not draining); Docker daemon DOWN persistent (chain-blocks Traefik/LiteLLM/host-proxy); Traefik/LiteLLM HTTP 000; Hermes CLI venv broken; canonical drift 19.47h"
         }
       ],
       "brief_count": 4,
@@ -468,12 +477,12 @@
         "date": "2026-08-22",
         "subdir": "outbox",
         "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22.md",
-        "size_bytes": 27271,
-        "modified": "2026-08-22T02:05:38+00:00",
+        "size_bytes": 35537,
+        "modified": "2026-08-22T02:32:08.095101+00:00",
         "status": "ALERT",
-        "verdict": "MCP parking storm plateaued at 3.0/min; 70 LiteLLM/Cerebras 402s in 30min (cooldown expired, calls failing inline); Traefik/LiteLLM HTTP still 000; messaging-bridge reconnects 6/30min + evo_poll bridge-post Connection refused every poll; DOCKER DAEMON DOWN (was UP at 01:00 brief \u2014 NEW regression); canonical drift 19.06h; Hermes CLI venv broken"
+        "verdict": "MCP parking plateaued 2.6/min (78/30min, slight decline from 90); LiteLLM 402 silent this window (0 events vs 70) \u2014 possible quiet recovery but unconfirmed; messaging-bridge reconnects 10/30min (+67%), evo_poll bridge-post 38,097 lifetime errors (100% fail rate, outbound queue not draining); Docker daemon DOWN persistent (chain-blocks Traefik/LiteLLM/host-proxy); Traefik/LiteLLM HTTP 000; Hermes CLI venv broken; canonical drift 19.47h"
       },
-      "last_run": "2026-08-22T02:05:38+00:00"
+      "last_run": "2026-08-22T02:32:08.095101+00:00"
     },
     "engineering-roster": {
       "state_data": {},
