@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "schema": "org-state-v1",
-  "last_updated": "2026-08-22T07:32:12.837796+00:00",
+  "last_updated": "2026-08-22T08:31:30+00:00",
   "agents": {
     "accounting-automation": {
       "state_data": {},
@@ -494,17 +494,22 @@
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0530-brief.md",
           "modified": "2026-08-22T05:30:40+00:00",
           "status": "ALERT"
+        },
+        {
+          "date": "2026-08-22-0830",
+          "subdir": "outbox",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0830-brief.md",
+          "size_bytes": 9648,
+          "modified": "2026-08-22T08:31:30+00:00"
         }
       ],
-      "brief_count": 7,
+      "brief_count": 8,
       "latest_brief": {
-        "date": "2026-08-22",
+        "date": "2026-08-22-0830",
         "subdir": "outbox",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0730-brief.md",
-        "size_bytes": 9702,
-        "modified": "2026-08-22T07:32:12.837770+00:00",
-        "status": "ALERT",
-        "verdict": "ALERT unchanged. Honesty correction: 07:00 parking \"improvement\" was transient dip, this tick rebounded to 169/30min = 5.45/min (baseline). LiteLLM cooldown still holding (0x 402). Load 5m/15m actually de-escalating \u2014 07:00 brief over-stated climbing trend. Bridge errors +1,890 in 30min (+1.05/sec) undrained. Cron drift 11,587s = 193 min lead, +54s/min. Public endpoints 200, native LiteLLM 9119 + dashboard 9120 healthy. Gateway restarted 03:31 UTC (4h uptime)."
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-0830-brief.md",
+        "size_bytes": 9648,
+        "modified": "2026-08-22T08:31:30+00:00"
       },
       "last_run": "2026-08-22T07:02:03+00:00"
     },
