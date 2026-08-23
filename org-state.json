@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 20,
+      "brief_count": 21,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -265,13 +265,26 @@
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
           ]
+        },
+        {
+          "date": "2026-08-23",
+          "generated_at": "2026-08-23T20:00:46Z",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23-tick42.md",
+          "tick": 42,
+          "n_today": 21,
+          "delivery": "SILENT (saturation)",
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ]
         }
       ],
       "latest_brief": {
-        "tick": 40,
-        "n_today": 19,
-        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **19th consecutive run**"
+        "tick": 42,
+        "n_today": 21,
+        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23-tick42.md",
+        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **21st consecutive run**"
       },
       "state_data": {}
     },
@@ -659,7 +672,7 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 20,
+      "brief_count": 6,
       "briefs": [
         {
           "date": "2026-08-23-0930",
@@ -705,10 +718,37 @@
           "status": "ALERT",
           "subdir": "outbox",
           "verdict": "ALERT escalated. Gateway RESTARTED at 09:30:50 UTC (telegram credential collision across 7 profiles \u2014 default/engineering/finance/kiki/operations/people/research/sales all claimed same token). New gateway PID 3455950, 30min stable, 332MiB. WA bridge FAILURE MODE CHANGED: bridge.js process NOT running (was running at 08:30); all reconnect attempts timeout 30s; evo_poll errors now [Errno 111] Connection refused vs generic prior; 7 evo_poll instances (was 6) all polling to dead bridge; outbound WA undeliverable. MCP parking BURST 1979/90min = 21.9/min (11x 08:30 baseline) \u2014 likely tied to gateway restart cycling stdio watchdogs. QDRANT_URL has literal {env:QDRANT_URL} not expanded. evo_poll lifetime errors 64,918 (+5,616 in 90min = ~1.04/sec). Canonical drift 20,641s = 5.73h (+5,446s in 90min = 60.5s/min). Telegram updater stalled at 10:01:13 \u2014 monitor 10:30. Docker daemon DOWN 8.5h+. Hermes CLI venv broken (persistent). Background denials quieter (2 in 90min)."
+        },
+        {
+          "date": "2026-08-23",
+          "modified": "2026-08-23T20:02:52+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2001-brief.md",
+          "size_bytes": 13443,
+          "subdir": "outbox",
+          "tick": 71,
+          "status": "ALERT",
+          "deltas": [
+            "rubicon-eas SSL flapped back to HTTP 000 (was 404 platform at tick 70)",
+            "HTTP 402 set 13 -> 14 (aiw-founder-bandwidth-watchdog-weekly Cerebras fired 20:00:48Z)",
+            "missing-script fresh-fails 2 -> 4 at this 30-min window"
+          ]
         }
       ],
       "last_run": "2026-08-23T06:03:40.584085+00:00",
-      "latest_brief": "ALERT (23 ticks). PUBLIC SITE BROKEN: rubiconeas.paragu-ai.com/* returns ExpiredRequest XML \u2014 worker.js R2 presigned URLs expired (signed 2026-08-10/12, TTL 7d, expired ~Aug 17/19). Lead API still works (200 URGENT/NORMAL test mode). Bridge 13h51m RSS 47 MB, +1.0 req/s. wa_bridge POSTs spiked +276/30m (was flat 65). MCP quiet. Docker DOWN 26h; :9119 + :3000 work. Resources healthy.",
+      "latest_brief": {
+        "date": "2026-08-23",
+        "modified": "2026-08-23T20:02:52+00:00",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2001-brief.md",
+        "size_bytes": 13443,
+        "subdir": "outbox",
+        "tick": 71,
+        "status": "ALERT",
+        "deltas": [
+          "rubicon-eas SSL flapped back to HTTP 000 (was 404 platform at tick 70)",
+          "HTTP 402 set 13 -> 14 (aiw-founder-bandwidth-watchdog-weekly Cerebras fired 20:00:48Z)",
+          "missing-script fresh-fails 2 -> 4 at this 30-min window"
+        ]
+      },
       "state_data": {
         "tick": 48,
         "bridge_pid": 3713061,
@@ -1152,7 +1192,8 @@
     "last_run_id": 96,
     "last_run_ts": "2026-08-21T04:00:31.668561+00:00",
     "last_total": 1,
-    "pass_rate_pct": 86.6
+    "pass_rate_pct": 86.6,
+    "devops-monitor-30min_last_tick": 71
   },
   "global": {
     "coaching": {
