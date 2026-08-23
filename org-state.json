@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 16,
+      "brief_count": 17,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -163,6 +163,7 @@
         },
         {
           "date": "2026-08-23",
+          "delivery": "FULL (unchanged violations; below ALERT threshold)",
           "generated_at": "2026-08-23T04:02:42Z",
           "n_today": 2,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
@@ -171,29 +172,16 @@
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
-          ],
-          "delivery": "FULL (unchanged violations; below ALERT threshold)"
+          ]
         },
         {
           "date": "2026-08-23",
+          "delivery": "FULL (unchanged violations; below ALERT threshold)",
           "generated_at": "2026-08-23T04:31:40.348257Z",
-          "tick": 11,
           "n_today": 3,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
           "size_bytes": 1604,
-          "violations": 2,
-          "violator_paths": [
-            "/opt/data/agents/board-of-directors/PROMPT.md",
-            "/opt/data/agents/people-hr/PROMPT.md"
-          ],
-          "delivery": "FULL (unchanged violations; below ALERT threshold)"
-        },
-        {
-          "date": "2026-08-23",
-          "n_today": 4,
-          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-          "tick": 12,
-          "generated_at": "2026-08-23T05:01:20Z",
+          "tick": 11,
           "violations": 2,
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
@@ -202,33 +190,35 @@
         },
         {
           "date": "2026-08-23",
-          "n_today": 5,
-          "outbox": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-          "tick": 13,
-          "generated_at": "2026-08-23T05:30:48Z",
+          "generated_at": "2026-08-23T05:01:20Z",
+          "n_today": 4,
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 12,
           "violations": 2,
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
-          ],
-          "delivery": "FULL (unchanged violations)"
+          ]
+        },
+        {
+          "date": "2026-08-23",
+          "delivery": "FULL (unchanged violations)",
+          "generated_at": "2026-08-23T05:30:48Z",
+          "n_today": 5,
+          "outbox": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 13,
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ]
         }
       ],
       "latest_brief": {
-        "date": "2026-08-23",
-        "n_today": 6,
-        "outbox": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "tick": 14,
-        "generated_at": "2026-08-23T05:30:48Z",
-        "violations": 2,
-        "violator_paths": [
-          "/opt/data/agents/board-of-directors/PROMPT.md",
-          "/opt/data/agents/people-hr/PROMPT.md"
-        ],
-        "delivery": "FULL (unchanged violations)",
-        "timestamp": "2026-08-23T06:03:41.065026Z",
-        "findings": "HARD STOP VIOLATIONS DETECTED",
-        "report_path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md"
+        "tick": 16,
+        "n_today": 8,
+        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **8th consecutive run**"
       },
       "state_data": {}
     },
@@ -616,7 +606,7 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 18,
+      "brief_count": 19,
       "briefs": [
         {
           "date": "2026-08-23-0600",
@@ -755,48 +745,72 @@
         {
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0301-brief.md",
           "ts": "2026-08-23T03:01:34+00:00"
+        },
+        {
+          "date": "2026-08-23",
+          "modified": "2026-08-23T07:01:27+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0700-brief.md",
+          "size_bytes": 4191,
+          "subdir": "outbox",
+          "tick": 48
         }
       ],
       "last_run": "2026-08-23T06:03:40.584085+00:00",
-      "latest_brief": "ALERT unchanged. Tick 42 steady state \u2014 no new incidents. Bridge alive 12h53m RSS 47 MB. MCP storm RESOLVED (evo_poll +1.7K/tick vs +26K/tick prior = 91% reduction, 0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL still test mode. Docker DOWN ~26h, LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact. Load dropped 2.96->1.47 after 02:00 spike. Resources: disk 20%, mem 4.2G/7.8G. Drift: gateway.heartbeat 27s, org-state 1h, cron-heartbeat.log 9d9h stale. Persistent alerts: docker 26h, venv 27h, :8787 dead 12h, test mode, .env world-readable. New finding: prompt parent_spec points to missing 03-devops-infrastructure.md (real file is 03-sales-growth.md).",
+      "latest_brief": "ALERT (23 ticks). PUBLIC SITE BROKEN: rubiconeas.paragu-ai.com/* returns ExpiredRequest XML \u2014 worker.js R2 presigned URLs expired (signed 2026-08-10/12, TTL 7d, expired ~Aug 17/19). Lead API still works (200 URGENT/NORMAL test mode). Bridge 13h51m RSS 47 MB, +1.0 req/s. wa_bridge POSTs spiked +276/30m (was flat 65). MCP quiet. Docker DOWN 26h; :9119 + :3000 work. Resources healthy.",
       "state_data": {
-        "tick": 42,
+        "tick": 48,
         "bridge_pid": 3713061,
-        "bridge_uptime_h": 12.883333333333333,
+        "bridge_uptime_h": 13.85,
         "bridge_rss_mb": 47,
-        "bridge_req_rate_per_s": 1.0,
-        "wa_bridge_log_lines": 46871,
-        "evo_poll_log_lines": 119669,
-        "evo_poll_delta_this_window": 1694,
+        "bridge_req_rate_per_s": 1.003,
+        "wa_bridge_log_lines": 50292,
+        "wa_bridge_post_delta_30m": 276,
+        "evo_poll_log_lines": 120068,
+        "evo_poll_delta_30m": 210,
         "gateway_pid": 3714173,
-        "gateway_uptime_h": 12.85,
-        "gateway_rss_mb": 527,
+        "gateway_heartbeat_age_s": 14.8,
+        "gateway_rss_mb": 544,
+        "gateway_uptime_h": 13.82,
         "dashboard_pid": 3217658,
         "dashboard_rss_mb": 635,
-        "mcp_oauth_errors": 0,
-        "mcp_fresh_starts": 0,
-        "lead_penal_status": 200,
-        "lead_penal_priority": "URGENT",
-        "lead_civil_status": 200,
-        "lead_civil_priority": "NORMAL",
-        "lead_mode": "test",
         "docker_down": true,
         "litellm_4000": false,
         "traefik_80": false,
         "dashboard_7681": false,
-        "bridge_8787": false,
         "bridge_3000": true,
-        "public_bypass_intact": true,
+        "bridge_8787": false,
+        "lead_mode": "test",
+        "lead_penal_status": 200,
+        "lead_penal_priority": "URGENT",
+        "lead_civil_status": 200,
+        "lead_civil_priority": "NORMAL",
+        "lead_ambiental_status": 200,
+        "lead_ambiental_priority": "NORMAL",
+        "lead_health_status": 200,
+        "public_front_status": 200,
+        "public_front_body_is_xml_error": true,
+        "public_bypass_intact_api": true,
+        "public_bypass_intact_front": false,
+        "r2_presigned_expired": true,
+        "mcp_oauth_errors": 0,
+        "mcp_fresh_starts": 0,
         "disk_pct": 20,
-        "load_1m": 1.47,
-        "load_5m": 0.89,
-        "load_15m": 0.79,
-        "mem_used_gib": 4.2,
+        "mem_used_gib": 4.5,
         "mem_total_gib": 7.8,
-        "gateway_heartbeat_age_s": 27,
-        "org_state_age_h": 1,
+        "load_1m": 1.29,
+        "load_5m": 0.95,
+        "load_15m": 0.89,
+        "org_state_age_m": 29.3,
         "cron_heartbeat_stale_days": 9.4,
+        "new_findings_this_tick": [
+          "rubicon_front_pages_all_return_expired_request_xml",
+          "presigned_r2_urls_expired_13d_past_604800_ttl",
+          "worker_js_static_signed_urls_no_rotation_logic",
+          "schema_area_field_lowercase_only_form_must_lowercase",
+          "test_mode_unchanged_webhook_not_set"
+        ],
         "persistent_alerts": [
+          "rubiconeas_front_pages_offline_r2_presigned_expired",
           "docker_down_26h",
           "venv_broken_27h",
           "bridge_8787_dead_12h",
@@ -804,12 +818,7 @@
           "lead_worker_test_mode",
           "deliver_none_cron_jobs",
           "departments_03_spec_missing",
-          "env_files_world_readable"
-        ],
-        "new_findings_this_tick": [
-          "evo_poll_growth_collapsed_91pct_mcp_storm_resolved",
-          "load_spike_02_00_was_transient",
-          "departments_parent_spec_path_broken"
+          "env_files_world_readable_resolved_600"
         ]
       },
       "status": "ALERT"
@@ -1280,7 +1289,7 @@
         "webhook_id": "mp-002"
       }
     ],
-    "last_devops_run": "2026-08-22T13:00:16+00:00",
+    "last_devops_run": "2026-08-23T07:01:27Z",
     "webhook_log_count": 48
   },
   "last_updated": "2026-08-23T05:30:48Z",
