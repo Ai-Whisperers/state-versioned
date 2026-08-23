@@ -268,10 +268,10 @@
         }
       ],
       "latest_brief": {
-        "tick": 32,
-        "n_today": 11,
+        "tick": 34,
+        "n_today": 13,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **11th consecutive run**"
+        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **13th consecutive run**"
       },
       "state_data": {}
     },
@@ -1102,18 +1102,23 @@
       "briefs": [],
       "last_run": "2026-08-22T16:00:00+00:00",
       "latest_brief": {
-        "cap_words": 6818,
-        "date": "2026-08-22",
-        "decisions_pending": 4,
-        "outbox_path": "/opt/data/agents/thesis-tracker/outbox/2026-08-22.md",
-        "satellite_commits_24h": 5,
-        "substrate_commits_24h": 5,
-        "substrate_p0_pending": 19,
-        "substrate_tasks_done": 54,
-        "substrate_tasks_total": 87,
-        "thesis_half": "both",
+        "date": "2026-08-23",
         "time_utc": "16:00",
-        "verdict": "OK"
+        "thesis_half": "both",
+        "verdict": "OK",
+        "cross_repo_impact": "substrate wrote Cap. 5 (T110); satellite shipped 4 unblocking pullers + 4 Tier S funding drafts",
+        "outbox_path": "/opt/data/agents/thesis-tracker/outbox/2026-08-23.md",
+        "substrate_commits_24h": 1,
+        "satellite_commits_24h": 4,
+        "substrate_tasks_done": 56,
+        "substrate_tasks_total": 87,
+        "substrate_tasks_blocked": 3,
+        "substrate_p0_pending": 15,
+        "cap_words": 19019,
+        "cap_chapters_done": 4,
+        "funding_drafts_ready": 4,
+        "funding_submitted": 0,
+        "decisions_pending": 5
       },
       "state_data": {}
     }
@@ -1285,7 +1290,8 @@
       }
     ],
     "last_devops_run": "2026-08-23T07:01:27Z",
-    "webhook_log_count": 48
+    "webhook_log_count": 48,
+    "updated_at": "2026-08-23T16:02:10.126473+00:00"
   },
   "last_updated": "2026-08-23T14:01:30+00:00",
   "metrics": {
