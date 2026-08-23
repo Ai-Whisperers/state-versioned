@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 19,
+      "brief_count": 20,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -252,13 +252,27 @@
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
           ]
+        },
+        {
+          "date": "2026-08-23",
+          "generated_at": "2026-08-23T10:32:30.810429Z",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 23,
+          "n_today": 2,
+          "delivery": "FULL (unchanged violations; below ALERT threshold)",
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ]
         }
       ],
       "latest_brief": {
-        "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "tick": 22,
-        "n_today": 1,
-        "time": "2026-08-23T10:00:57.926985Z"
+        "time": "2026-08-23T11:01:00.416048Z",
+        "report": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+        "tick": 24,
+        "n_today": 3,
+        "summary": "HARD STOP VIOLATIONS DETECTED \u2014 3rd consecutive run"
       },
       "state_data": {}
     },
@@ -1248,7 +1262,7 @@
     "last_devops_run": "2026-08-23T07:01:27Z",
     "webhook_log_count": 48
   },
-  "last_updated": "2026-08-23T09:32:17+00:00",
+  "last_updated": "2026-08-23T10:32:30.810429+00:00",
   "metrics": {
     "agents_total": 47,
     "agents_with_briefs": 23,
@@ -1267,7 +1281,7 @@
     "db_dir": "/opt/data/db",
     "global_state_dir": "/opt/data/state"
   },
-  "updated_at": "2026-08-23T09:32:17+00:00",
+  "updated_at": "2026-08-23T10:32:30.810429Z",
   "version": "1.0.0",
   "brief_count": 1
 }
