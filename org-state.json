@@ -281,7 +281,7 @@
         }
       ],
       "latest_brief": {
-        "tick": 45,
+        "tick": 47,
         "n_today": 1,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
         "findings": "NO VIOLATIONS"
@@ -672,7 +672,7 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 6,
+      "brief_count": 7,
       "briefs": [
         {
           "date": "2026-08-23-0930",
@@ -681,7 +681,7 @@
           "size_bytes": 7670,
           "status": "ALERT",
           "subdir": "outbox",
-          "verdict": "ALERT unchanged. Tick 52 steady state \u2014 no new incidents. Bridge alive 16h20m RSS 47 MB. Lead API failure mode shifted 404 (was SSL 000 at tick 51, was 200 OK at tick 50) \u2014 same root cause (worker route not deployed). Public lead capture non-functional. Cron 24 err UNCHANGED (LiteLLM 402 + 9 missing scripts + 2 path-guard). Drift 29h14m (worsened 30min/tick). Load cooled 1.49. Persistent: docker 28h, venv 29h, :8787 dead 13h, test mode, .env world-readable. Lead SSL regression NEW root cause candidate: Cloudflare edge now returns 404 instead of TLS-terminating."
+          "verdict": "ALERT unchanged. Tick 52 steady state — no new incidents. Bridge alive 16h20m RSS 47 MB. Lead API failure mode shifted 404 (was SSL 000 at tick 51, was 200 OK at tick 50) — same root cause (worker route not deployed). Public lead capture non-functional. Cron 24 err UNCHANGED (LiteLLM 402 + 9 missing scripts + 2 path-guard). Drift 29h14m (worsened 30min/tick). Load cooled 1.49. Persistent: docker 28h, venv 29h, :8787 dead 13h, test mode, .env world-readable. Lead SSL regression NEW root cause candidate: Cloudflare edge now returns 404 instead of TLS-terminating."
         },
         {
           "date": "2026-08-23-0600",
@@ -690,7 +690,7 @@
           "size_bytes": 4500,
           "status": "ALERT",
           "subdir": "outbox",
-          "verdict": "ALERT unchanged. Tick 42 steady state \u2014 no new incidents. Bridge alive 12h53m RSS 47 MB. MCP storm RESOLVED (evo_poll +1.7K/tick vs +26K/tick prior = 91% reduction, 0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL still test mode. Docker DOWN ~26h, LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact. Load dropped 2.96->1.47 after 02:00 spike. Resources: disk 20%, mem 4.2G/7.8G. Drift: gateway.heartbeat 27s, org-state 1h, cron-heartbeat.log 9d9h stale. Persistent alerts: docker 26h, venv 27h, :8787 dead 12h, test mode, .env world-readable. New finding: prompt parent_spec points to missing 03-devops-infrastructure.md (real file is 03-sales-growth.md)."
+          "verdict": "ALERT unchanged. Tick 42 steady state — no new incidents. Bridge alive 12h53m RSS 47 MB. MCP storm RESOLVED (evo_poll +1.7K/tick vs +26K/tick prior = 91% reduction, 0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL still test mode. Docker DOWN ~26h, LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact. Load dropped 2.96->1.47 after 02:00 spike. Resources: disk 20%, mem 4.2G/7.8G. Drift: gateway.heartbeat 27s, org-state 1h, cron-heartbeat.log 9d9h stale. Persistent alerts: docker 26h, venv 27h, :8787 dead 12h, test mode, .env world-readable. New finding: prompt parent_spec points to missing 03-devops-infrastructure.md (real file is 03-sales-growth.md)."
         },
         {
           "date": "2026-08-23-0200",
@@ -699,7 +699,7 @@
           "size_bytes": 4426,
           "status": "ALERT",
           "subdir": "outbox",
-          "verdict": "ALERT unchanged. Tick 41 steady state \u2014 no new incidents. Bridge alive on :3000 (8h51m, RSS 47 MB, real WA inbound 00:42 SkillShare group). Gateway fresh 8h49m RSS 501 MB. MCP calm (0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL mode:test, front 49ms. Docker daemon still DOWN ~22h (LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact). Resources: disk 20%, load 2.96/1.30/1.00 (1-min spike), mem 4.2G/7.8G. Drift: gateway.heartbeat 12s, org-state 1h, cron-heartbeat.log 9d6h stale. Persistent alerts: docker 22h, venv 23h, :8787 dead 8h, test mode, .env world-readable. Recommended: restart dockerd, flip lead worker to production, chmod .env files, stub departments/03-devops-infrastructure.md."
+          "verdict": "ALERT unchanged. Tick 41 steady state — no new incidents. Bridge alive on :3000 (8h51m, RSS 47 MB, real WA inbound 00:42 SkillShare group). Gateway fresh 8h49m RSS 501 MB. MCP calm (0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL mode:test, front 49ms. Docker daemon still DOWN ~22h (LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact). Resources: disk 20%, load 2.96/1.30/1.00 (1-min spike), mem 4.2G/7.8G. Drift: gateway.heartbeat 12s, org-state 1h, cron-heartbeat.log 9d6h stale. Persistent alerts: docker 22h, venv 23h, :8787 dead 8h, test mode, .env world-readable. Recommended: restart dockerd, flip lead worker to production, chmod .env files, stub departments/03-devops-infrastructure.md."
         },
         {
           "date": "2026-08-22-1100",
@@ -708,7 +708,7 @@
           "size_bytes": 2672,
           "status": "ALERT",
           "subdir": "outbox",
-          "verdict": "ALERT unchanged. WA bridge STILL DOWN (no node/bridge.js process, :8787 connection refused, gateway reconnect attempts 13-19 all timed out 30s). MCP parking PARTIAL RECOVERY: 144 events/30min = 4.8/min (down 78% from 10:00 peak of 21.9/min, still 2.4x baseline). Canonical drift 24,249s = 6.74h (+1h vs 10:00, rate slowed 60.5\u219240s/min). Load climbing 2.93 (from 1.37 baseline) \u2014 park-reconnect churn. Native LiteLLM 9119+9120 OK. Caddy :8080/:8000 still down (Docker 8.5h+ offline). Multiple MCP servers misconfigured (qdrant {env:QDRANT_URL} literal, jupyter KernelClient ImportError, spotify fastmcp missing, obsidian vault path missing, brave API key missing)."
+          "verdict": "ALERT unchanged. WA bridge STILL DOWN (no node/bridge.js process, :8787 connection refused, gateway reconnect attempts 13-19 all timed out 30s). MCP parking PARTIAL RECOVERY: 144 events/30min = 4.8/min (down 78% from 10:00 peak of 21.9/min, still 2.4x baseline). Canonical drift 24,249s = 6.74h (+1h vs 10:00, rate slowed 60.5→40s/min). Load climbing 2.93 (from 1.37 baseline) — park-reconnect churn. Native LiteLLM 9119+9120 OK. Caddy :8080/:8000 still down (Docker 8.5h+ offline). Multiple MCP servers misconfigured (qdrant {env:QDRANT_URL} literal, jupyter KernelClient ImportError, spotify fastmcp missing, obsidian vault path missing, brave API key missing)."
         },
         {
           "date": "2026-08-22-1000",
@@ -717,7 +717,7 @@
           "size_bytes": 10732,
           "status": "ALERT",
           "subdir": "outbox",
-          "verdict": "ALERT escalated. Gateway RESTARTED at 09:30:50 UTC (telegram credential collision across 7 profiles \u2014 default/engineering/finance/kiki/operations/people/research/sales all claimed same token). New gateway PID 3455950, 30min stable, 332MiB. WA bridge FAILURE MODE CHANGED: bridge.js process NOT running (was running at 08:30); all reconnect attempts timeout 30s; evo_poll errors now [Errno 111] Connection refused vs generic prior; 7 evo_poll instances (was 6) all polling to dead bridge; outbound WA undeliverable. MCP parking BURST 1979/90min = 21.9/min (11x 08:30 baseline) \u2014 likely tied to gateway restart cycling stdio watchdogs. QDRANT_URL has literal {env:QDRANT_URL} not expanded. evo_poll lifetime errors 64,918 (+5,616 in 90min = ~1.04/sec). Canonical drift 20,641s = 5.73h (+5,446s in 90min = 60.5s/min). Telegram updater stalled at 10:01:13 \u2014 monitor 10:30. Docker daemon DOWN 8.5h+. Hermes CLI venv broken (persistent). Background denials quieter (2 in 90min)."
+          "verdict": "ALERT escalated. Gateway RESTARTED at 09:30:50 UTC (telegram credential collision across 7 profiles — default/engineering/finance/kiki/operations/people/research/sales all claimed same token). New gateway PID 3455950, 30min stable, 332MiB. WA bridge FAILURE MODE CHANGED: bridge.js process NOT running (was running at 08:30); all reconnect attempts timeout 30s; evo_poll errors now [Errno 111] Connection refused vs generic prior; 7 evo_poll instances (was 6) all polling to dead bridge; outbound WA undeliverable. MCP parking BURST 1979/90min = 21.9/min (11x 08:30 baseline) — likely tied to gateway restart cycling stdio watchdogs. QDRANT_URL has literal {env:QDRANT_URL} not expanded. evo_poll lifetime errors 64,918 (+5,616 in 90min = ~1.04/sec). Canonical drift 20,641s = 5.73h (+5,446s in 90min = 60.5s/min). Telegram updater stalled at 10:01:13 — monitor 10:30. Docker daemon DOWN 8.5h+. Hermes CLI venv broken (persistent). Background denials quieter (2 in 90min)."
         },
         {
           "date": "2026-08-23",
@@ -732,85 +732,82 @@
             "HTTP 402 set 13 -> 14 (aiw-founder-bandwidth-watchdog-weekly Cerebras fired 20:00:48Z)",
             "missing-script fresh-fails 2 -> 4 at this 30-min window"
           ]
+        },
+        {
+          "date": "2026-08-23-2301",
+          "modified": "2026-08-23T23:02:55.878202+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2301-brief.md",
+          "size_bytes": 8617,
+          "status": "ALERT",
+          "subdir": "outbox",
+          "tick": 77
         }
       ],
-      "last_run": "2026-08-23T06:03:40.584085+00:00",
+      "last_run": "2026-08-23T23:02:55.878202+00:00",
       "latest_brief": {
         "date": "2026-08-23",
-        "modified": "2026-08-23T20:02:52+00:00",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2001-brief.md",
-        "size_bytes": 13443,
+        "modified": "2026-08-23T23:02:55.878202+00:00",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2301-brief.md",
+        "size_bytes": 8617,
         "subdir": "outbox",
-        "tick": 71,
+        "tick": 77,
         "status": "ALERT",
         "deltas": [
-          "rubicon-eas SSL flapped back to HTTP 000 (was 404 platform at tick 70)",
-          "HTTP 402 set 13 -> 14 (aiw-founder-bandwidth-watchdog-weekly Cerebras fired 20:00:48Z)",
-          "missing-script fresh-fails 2 -> 4 at this 30-min window"
+          "HTTP 402 set 15 -> 16 (thesis-git-maintenance newly in error, Cerebras bucket 12 -> 13)",
+          "OAuthNonInteractive 27 -> 39 lifetime (+12 in 30min, comfy-cloud RE-ESCALATED 7/30min was 3)",
+          "MCP parked events 80 -> 149/30min; unique 13 -> 15 (twilio_mcp joined)",
+          "gateway RSS 544 -> 602 MiB (+58 MiB in 30min, possible leak)",
+          "load-1 1.91 -> 3.48 (MCP parking churn burst)"
         ]
       },
       "state_data": {
-        "tick": 48,
+        "tick": 77,
         "bridge_pid": 3713061,
-        "bridge_uptime_h": 13.85,
-        "bridge_rss_mb": 47,
-        "bridge_req_rate_per_s": 1.003,
-        "wa_bridge_log_lines": 50292,
-        "wa_bridge_post_delta_30m": 276,
-        "evo_poll_log_lines": 120068,
-        "evo_poll_delta_30m": 210,
+        "bridge_uptime_h": 29.85,
+        "bridge_rss_mb": 45.9,
+        "bridge_log_lines": 107883,
+        "bridge_post_delta_30m": 1875,
         "gateway_pid": 3714173,
-        "gateway_heartbeat_age_s": 14.8,
-        "gateway_rss_mb": 544,
-        "gateway_uptime_h": 13.82,
-        "dashboard_pid": 3217658,
-        "dashboard_rss_mb": 635,
+        "gateway_heartbeat_age_s": 28,
+        "gateway_rss_mb": 601.5,
+        "gateway_uptime_h": 29.83,
         "docker_down": true,
-        "litellm_4000": false,
-        "traefik_80": false,
-        "dashboard_7681": false,
-        "bridge_3000": true,
-        "bridge_8787": false,
-        "lead_mode": "test",
-        "lead_penal_status": 200,
-        "lead_penal_priority": "URGENT",
-        "lead_civil_status": 200,
-        "lead_civil_priority": "NORMAL",
-        "lead_ambiental_status": 200,
-        "lead_ambiental_priority": "NORMAL",
-        "lead_health_status": 200,
-        "public_front_status": 200,
-        "public_front_body_is_xml_error": true,
-        "public_bypass_intact_api": true,
-        "public_bypass_intact_front": false,
-        "r2_presigned_expired": true,
-        "mcp_oauth_errors": 0,
-        "mcp_fresh_starts": 0,
+        "dockdown_h": 44,
+        "mcp_oauth_errors_lifetime": 39,
+        "mcp_oauth_errors_30m": 4,
+        "mcp_parked_servers_30m": 15,
+        "mcp_parked_events_30m": 149,
         "disk_pct": 20,
-        "mem_used_gib": 4.5,
-        "mem_total_gib": 7.8,
-        "load_1m": 1.29,
-        "load_5m": 0.95,
-        "load_15m": 0.89,
-        "org_state_age_m": 29.3,
-        "cron_heartbeat_stale_days": 9.4,
+        "mem_used_gib": 5.14,
+        "mem_total_gib": 7.75,
+        "load_1m": 3.48,
+        "load_5m": 2.19,
+        "load_15m": 1.48,
+        "canonical_jobs_mtime": "2026-08-23T23:00:46Z",
+        "gateway_jobs_mtime": "2026-08-23T22:57:15Z",
+        "cron_drift_seconds": 211,
+        "cron_drift_human": "0h03m31s",
+        "jobs_in_error": 21,
+        "litellm_402_jobs": 16,
         "new_findings_this_tick": [
-          "rubicon_front_pages_all_return_expired_request_xml",
-          "presigned_r2_urls_expired_13d_past_604800_ttl",
-          "worker_js_static_signed_urls_no_rotation_logic",
-          "schema_area_field_lowercase_only_form_must_lowercase",
-          "test_mode_unchanged_webhook_not_set"
+          "thesis_git_maintenance_new_cerebras_402",
+          "gateway_rss_growth_58mib_in_30min",
+          "mcp_parking_churn_acceleration_149_events_30min",
+          "twilio_mcp_joined_parked_list",
+          "comfy_cloud_oauth_re_escalated_7_in_30min_was_3"
         ],
         "persistent_alerts": [
-          "rubiconeas_front_pages_offline_r2_presigned_expired",
-          "docker_down_26h",
-          "venv_broken_27h",
-          "bridge_8787_dead_12h",
-          "cron_heartbeat_stale_9d9h",
-          "lead_worker_test_mode",
+          "rubiconeas_front_expired_request_day_6",
+          "ometzdental_404_no_fallback_16h",
+          "rubicon_eas_404_stable",
+          "docker_down_44h",
+          "venv_broken_33h",
+          "cron_path_guard_false_positive_2",
+          "lead_worker_test_mode_unchanged",
           "deliver_none_cron_jobs",
           "departments_03_spec_missing",
-          "env_files_world_readable_resolved_600"
+          "state_json_counters_stale_2d21h",
+          "comfy_cloud_oauth_re_escalated"
         ]
       },
       "status": "ALERT"
@@ -1006,10 +1003,10 @@
       "briefs": [
         {
           "highlights": [
-            "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
-            "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
-            "paragu-ai-builder#378,#379 \u2014 merge-conflict dirty",
-            "8 dependabot PRs \u2014 stale or CI-failing",
+            "infrastructure#3 mega-PR — 243 files, +64,432 LOC, no review, no CI, 85d stale",
+            "10 scrub PRs — added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
+            "paragu-ai-builder#378,#379 — merge-conflict dirty",
+            "8 dependabot PRs — stale or CI-failing",
             "PROMPT.md path mismatch + Cerebras 402 broke last 3 runs"
           ],
           "open_prs": 25,
@@ -1022,11 +1019,11 @@
         },
         {
           "highlights": [
-            "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) \u2014 14-20 banlist hits each in added lines",
-            "10 yesterday scrub PRs still dirty \u2014 0 progress in 24h",
-            "12 governance wave-2 PRs \u2014 all clean individually but should be consolidated to one",
+            "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) — 14-20 banlist hits each in added lines",
+            "10 yesterday scrub PRs still dirty — 0 progress in 24h",
+            "12 governance wave-2 PRs — all clean individually but should be consolidated to one",
             "Vete repo: 17 stale dependabot PRs (125-154d)",
-            "PROMPT.md path mismatch \u2014 still unresolved after 24h",
+            "PROMPT.md path mismatch — still unresolved after 24h",
             "GitHub api.github.com core rate limit 0/60 truncated today scan to 39/57 repos"
           ],
           "open_prs": 46,
@@ -1041,11 +1038,11 @@
       ],
       "latest_brief": {
         "highlights": [
-          "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) \u2014 14-20 banlist hits each in added lines",
-          "10 yesterday scrub PRs still dirty \u2014 0 progress in 24h",
-          "12 governance wave-2 PRs \u2014 all clean individually but should be consolidated to one",
+          "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) — 14-20 banlist hits each in added lines",
+          "10 yesterday scrub PRs still dirty — 0 progress in 24h",
+          "12 governance wave-2 PRs — all clean individually but should be consolidated to one",
           "Vete repo: 17 stale dependabot PRs (125-154d)",
-          "PROMPT.md path mismatch \u2014 still unresolved after 24h",
+          "PROMPT.md path mismatch — still unresolved after 24h",
           "GitHub api.github.com core rate limit 0/60 truncated today scan to 39/57 repos"
         ],
         "open_prs": 46,
@@ -1330,9 +1327,9 @@
         "webhook_id": "mp-002"
       }
     ],
-    "last_devops_run": "2026-08-23T07:01:27Z",
+    "last_devops_run": "2026-08-23T23:02:55.878202+00:00",
     "webhook_log_count": 48,
-    "updated_at": "2026-08-23T16:02:10.126473+00:00"
+    "updated_at": "2026-08-23T23:02:55.878202+00:00"
   },
   "last_updated": "2026-08-23T14:01:30+00:00",
   "metrics": {
