@@ -268,10 +268,10 @@
         }
       ],
       "latest_brief": {
-        "tick": 28,
-        "n_today": 7,
+        "tick": 30,
+        "n_today": 9,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **7th consecutive run**"
+        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **9th consecutive run**"
       },
       "state_data": {}
     },
@@ -962,7 +962,7 @@
       "state_data": {}
     },
     "qa-automation-runner": {
-      "brief_count": 1,
+      "brief_count": 2,
       "briefs": [
         {
           "highlights": [
@@ -979,23 +979,43 @@
           "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
           "timestamp": "2026-08-22T14:07:10+00:00",
           "verdict": "ALERT"
+        },
+        {
+          "highlights": [
+            "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) \u2014 14-20 banlist hits each in added lines",
+            "10 yesterday scrub PRs still dirty \u2014 0 progress in 24h",
+            "12 governance wave-2 PRs \u2014 all clean individually but should be consolidated to one",
+            "Vete repo: 17 stale dependabot PRs (125-154d)",
+            "PROMPT.md path mismatch \u2014 still unresolved after 24h",
+            "GitHub api.github.com core rate limit 0/60 truncated today scan to 39/57 repos"
+          ],
+          "open_prs": 46,
+          "open_prs_known_total_min": 46,
+          "scrub_prs_blocked": 13,
+          "outbox": "/opt/data/agents/qa-automation-on-pr/outbox/2026-08-23.md",
+          "summary": "ALERT: 46+ open PRs (rate-limited scan, true count higher). 13 trademark-scrub PRs still introduce banned terms (Instagram, Facebook, Meta, Slack, Gmail) in added lines. 12 governance wave-2 PRs are clean but should be one. 17 stale Vete dependabot PRs. PROMPT.md path mismatch unresolved.",
+          "timestamp": "2026-08-23T14:01:30+00:00",
+          "verdict": "ALERT",
+          "rate_limit_hit": true
         }
       ],
       "latest_brief": {
         "highlights": [
-          "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
-          "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
-          "paragu-ai-builder#378,#379 \u2014 merge-conflict dirty",
-          "8 dependabot PRs \u2014 stale or CI-failing",
-          "PROMPT.md path mismatch + Cerebras 402 broke last 3 runs"
+          "3 NEW failed scrub PRs (marketing-strategy#3, depiflash#1, meal-prerp-website#2) \u2014 14-20 banlist hits each in added lines",
+          "10 yesterday scrub PRs still dirty \u2014 0 progress in 24h",
+          "12 governance wave-2 PRs \u2014 all clean individually but should be consolidated to one",
+          "Vete repo: 17 stale dependabot PRs (125-154d)",
+          "PROMPT.md path mismatch \u2014 still unresolved after 24h",
+          "GitHub api.github.com core rate limit 0/60 truncated today scan to 39/57 repos"
         ],
-        "open_prs": 25,
-        "open_with_no_review": 25,
-        "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md",
-        "scrub_prs_blocked": 10,
-        "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
-        "timestamp": "2026-08-22T14:07:10+00:00",
-        "verdict": "ALERT"
+        "open_prs": 46,
+        "open_prs_known_total_min": 46,
+        "scrub_prs_blocked": 13,
+        "outbox": "/opt/data/agents/qa-automation-on-pr/outbox/2026-08-23.md",
+        "summary": "ALERT: 46+ open PRs (rate-limited scan, true count higher). 13 trademark-scrub PRs still introduce banned terms (Instagram, Facebook, Meta, Slack, Gmail) in added lines. 12 governance wave-2 PRs are clean but should be one. 17 stale Vete dependabot PRs. PROMPT.md path mismatch unresolved.",
+        "timestamp": "2026-08-23T14:01:30+00:00",
+        "verdict": "ALERT",
+        "rate_limit_hit": true
       },
       "state_data": {}
     },
@@ -1103,6 +1123,12 @@
       "agent": "devops-monitor-30min",
       "status": "ALERT",
       "ts": "2026-08-22T00:00:51+00:00"
+    },
+    {
+      "agent": "qa-automation-runner",
+      "verdict": "ALERT",
+      "timestamp": "2026-08-23T14:01:30+00:00",
+      "summary": "ALERT: 46+ open PRs (rate-limited scan, true count higher). 13 trademark-scrub PRs still introduce banned terms (Instagr"
     }
   ],
   "cron": {
@@ -1261,7 +1287,7 @@
     "last_devops_run": "2026-08-23T07:01:27Z",
     "webhook_log_count": 48
   },
-  "last_updated": "2026-08-23T10:32:30.810429+00:00",
+  "last_updated": "2026-08-23T14:01:30+00:00",
   "metrics": {
     "agents_total": 47,
     "agents_with_briefs": 23,
@@ -1280,7 +1306,7 @@
     "db_dir": "/opt/data/db",
     "global_state_dir": "/opt/data/state"
   },
-  "updated_at": "2026-08-23T10:32:30.810429Z",
+  "updated_at": "2026-08-23T14:01:30+00:00",
   "version": "1.0.0",
-  "brief_count": 1
+  "brief_count": 2
 }
