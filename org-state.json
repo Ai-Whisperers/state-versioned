@@ -215,10 +215,10 @@
         }
       ],
       "latest_brief": {
-        "tick": 16,
-        "n_today": 8,
+        "tick": 17,
+        "n_today": 9,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **8th consecutive run**"
+        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **9th consecutive run**"
       },
       "state_data": {}
     },
