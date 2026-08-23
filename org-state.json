@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 17,
+      "brief_count": 18,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -212,13 +212,28 @@
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
           ]
+        },
+        {
+          "date": "2026-08-23",
+          "modified": "2026-08-23T08:30:46.388859+00:00",
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "size_bytes": 1460,
+          "subdir": "outbox",
+          "tick": 18,
+          "n_today": 10,
+          "delivery": "SILENT (saturation)",
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ]
         }
       ],
       "latest_brief": {
-        "tick": 17,
-        "n_today": 9,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **9th consecutive run**"
+        "tick": 20,
+        "n_today": 11,
+        "time": "2026-08-23T09:01:50.136088Z"
       },
       "state_data": {}
     },
@@ -1312,5 +1327,6 @@
     "global_state_dir": "/opt/data/state"
   },
   "updated_at": "2026-08-23T05:30:48Z",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "brief_count": 1
 }
