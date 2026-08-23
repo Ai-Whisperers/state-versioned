@@ -19,7 +19,7 @@
       "state_data": {}
     },
     "ai-safety-engineer-30min": {
-      "brief_count": 9,
+      "brief_count": 12,
       "briefs": [
         {
           "date": "2026-08-15",
@@ -60,36 +60,36 @@
         },
         {
           "date": "2026-08-22",
-          "tick": 28,
+          "delivery": "SILENT (saturation)",
           "modified": "2026-08-22T21:01:10+00:00",
+          "n_prior_chain": 16,
+          "n_today": 16,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22-tick28.md",
           "size_bytes": 4968,
           "subdir": "outbox",
-          "n_prior_chain": 16,
-          "n_today": 16,
-          "delivery": "SILENT (saturation)"
+          "tick": 28
         },
         {
           "date": "2026-08-22",
-          "tick": 33,
+          "delivery": "SILENT (saturation)",
           "modified": "2026-08-22T23:00:59Z",
+          "n_prior_chain": 20,
+          "n_today": 21,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-22.md",
           "size_bytes": 2943,
           "subdir": "outbox",
-          "n_prior_chain": 20,
-          "n_today": 21,
-          "delivery": "SILENT (saturation)"
+          "tick": 33
         },
         {
           "date": "2026-08-23",
-          "tick": 1,
+          "delivery": "FULL (fresh daily run)",
           "modified": "2026-08-23T00:03:32.199620+00:00",
+          "n_prior_chain": 0,
+          "n_today": 1,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
           "size_bytes": 1524,
           "subdir": "outbox",
-          "n_prior_chain": 0,
-          "n_today": 1,
-          "delivery": "FULL (fresh daily run)",
+          "tick": 1,
           "violations": 2,
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
@@ -98,14 +98,14 @@
         },
         {
           "date": "2026-08-23",
-          "tick": 2,
+          "delivery": "FULL (fresh daily run)",
           "modified": "2026-08-23T00:31:01Z",
+          "n_prior_chain": 0,
+          "n_today": 2,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
           "size_bytes": 1381,
           "subdir": "outbox",
-          "n_prior_chain": 0,
-          "n_today": 2,
-          "delivery": "FULL (fresh daily run)",
+          "tick": 2,
           "violations": 2,
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
@@ -114,26 +114,66 @@
         },
         {
           "date": "2026-08-23",
-          "tick": 3,
+          "delivery": "FULL (fresh daily run)",
           "modified": "2026-08-23T01:01:06Z",
+          "n_prior_chain": 2,
+          "n_today": 3,
           "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
           "size_bytes": 1566,
           "subdir": "outbox",
-          "n_prior_chain": 2,
-          "n_today": 3,
-          "delivery": "FULL (fresh daily run)",
+          "tick": 3,
           "violations": 2,
           "violator_paths": [
             "/opt/data/agents/board-of-directors/PROMPT.md",
             "/opt/data/agents/people-hr/PROMPT.md"
           ]
+        },
+        {
+          "date": "2026-08-23",
+          "generated_at": "2026-08-23T02:33:11Z",
+          "n_today": 1,
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 7
+        },
+        {
+          "date": "2026-08-23",
+          "generated_at": "2026-08-23T03:01:43.770892Z",
+          "n_today": 2,
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 8,
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ],
+          "delivery": "FULL (unchanged violations; below ALERT threshold)"
+        },
+        {
+          "date": "2026-08-23",
+          "generated_at": "2026-08-23T03:01:51.112592Z",
+          "n_today": 2,
+          "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
+          "tick": 8,
+          "violations": 2,
+          "violator_paths": [
+            "/opt/data/agents/board-of-directors/PROMPT.md",
+            "/opt/data/agents/people-hr/PROMPT.md"
+          ],
+          "delivery": "FULL (unchanged violations; below ALERT threshold)"
         }
       ],
       "latest_brief": {
-        "tick": 6,
-        "n_today": 6,
+        "date": "2026-08-23",
+        "generated_at": "2026-08-23T03:01:51.112592Z",
+        "n_today": 2,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-23.md",
-        "findings": "HARD STOP VIOLATIONS DETECTED \u2014 **6th consecutive run**"
+        "tick": 8,
+        "violations": 2,
+        "violator_paths": [
+          "/opt/data/agents/board-of-directors/PROMPT.md",
+          "/opt/data/agents/people-hr/PROMPT.md"
+        ],
+        "delivery": "FULL (unchanged violations; below ALERT threshold)"
       },
       "state_data": {}
     },
@@ -521,15 +561,15 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 16,
+      "brief_count": 17,
       "briefs": [
         {
           "date": "2026-08-23-0200",
           "modified": "2026-08-23T02:01:39+00:00",
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0200-brief.md",
           "size_bytes": 4426,
-          "subdir": "outbox",
           "status": "ALERT",
+          "subdir": "outbox",
           "verdict": "ALERT unchanged. Tick 41 steady state \u2014 no new incidents. Bridge alive on :3000 (8h51m, RSS 47 MB, real WA inbound 00:42 SkillShare group). Gateway fresh 8h49m RSS 501 MB. MCP calm (0 OAuth/0 fresh-start). Public lead 200 URGENT+200 NORMAL mode:test, front 49ms. Docker daemon still DOWN ~22h (LiteLLM/Traefik/Dashboard :4000/:80/:7681 CLOSED, public bypass intact). Resources: disk 20%, load 2.96/1.30/1.00 (1-min spike), mem 4.2G/7.8G. Drift: gateway.heartbeat 12s, org-state 1h, cron-heartbeat.log 9d6h stale. Persistent alerts: docker 22h, venv 23h, :8787 dead 8h, test mode, .env world-readable. Recommended: restart dockerd, flip lead worker to production, chmod .env files, stub departments/03-devops-infrastructure.md."
         },
         {
@@ -647,35 +687,39 @@
           "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-22-1700-brief.md",
           "size_bytes": 9975,
           "subdir": "outbox"
+        },
+        {
+          "ts": "2026-08-23T03:01:34+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0301-brief.md"
         }
       ],
-      "last_run": "2026-08-23T02:01:39+00:00",
+      "last_run": "2026-08-23T03:01:34+00:00",
       "latest_brief": {
         "date": "2026-08-23",
-        "modified": "2026-08-23T02:01:39+00:00",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0200-brief.md",
-        "size_bytes": 4426,
+        "modified": "2026-08-23T03:01:34+00:00",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-0301-brief.md",
+        "size_bytes": 1778,
         "subdir": "outbox"
       },
       "state_data": {
-        "status": "ALERT",
+        "canonical_drift_hours": 8.74,
+        "canonical_drift_seconds": 31467,
+        "disk_used_pct": 21,
         "docker_daemon": "DOWN (~11h cumulative, no recovery)",
+        "evo_poll_lifetime_errors": 76195,
         "hermes_cli": "venv symlink broken (12h30m+)",
         "litellm_402_silence_minutes": 630,
+        "load_1min": 2.49,
         "mcp_parking_events_30min": 144,
         "mcp_parking_rate_per_min": 4.8,
         "mcp_unique_servers": 15,
-        "oauth_mcp_failures_30min": 3,
+        "memory_used_gib": 4.2,
         "messaging_bridge_attempts": 40,
         "messaging_bridge_reconnects_30min": 5,
-        "evo_poll_lifetime_errors": 76195,
-        "canonical_drift_seconds": 31467,
-        "canonical_drift_hours": 8.74,
-        "disk_used_pct": 21,
-        "load_1min": 2.49,
-        "memory_used_gib": 4.2
+        "oauth_mcp_failures_30min": 3,
+        "status": "ALERT"
       },
-      "status": "ALERT"
+      "status": "alert"
     },
     "engineering-roster": {
       "brief_count": 2,
@@ -850,9 +894,6 @@
       "brief_count": 1,
       "briefs": [
         {
-          "timestamp": "2026-08-22T14:07:10+00:00",
-          "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
-          "verdict": "ALERT",
           "highlights": [
             "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
             "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
@@ -862,14 +903,14 @@
           ],
           "open_prs": 25,
           "open_with_no_review": 25,
+          "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md",
           "scrub_prs_blocked": 10,
-          "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md"
+          "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
+          "timestamp": "2026-08-22T14:07:10+00:00",
+          "verdict": "ALERT"
         }
       ],
       "latest_brief": {
-        "timestamp": "2026-08-22T14:07:10+00:00",
-        "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
-        "verdict": "ALERT",
         "highlights": [
           "infrastructure#3 mega-PR \u2014 243 files, +64,432 LOC, no review, no CI, 85d stale",
           "10 scrub PRs \u2014 added lines still contain Meta/Instagram/Facebook/Slack/Gmail; not safe to merge",
@@ -879,8 +920,11 @@
         ],
         "open_prs": 25,
         "open_with_no_review": 25,
+        "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md",
         "scrub_prs_blocked": 10,
-        "outbox": "/opt/data/agents/qa-automation-runner/outbox/2026-08-22.md"
+        "summary": "ALERT: 25 open PRs, 0 reviews. infrastructure#3 mega-PR (+64k/243 files, 85d stale). All 10 trademark-scrub PRs still introduce banned terms in added lines (meta/instagram/facebook/slack/gmail). PROMPT.md path mismatch (cron references qa-automation-on-pr but file is at qa-automation-runner).",
+        "timestamp": "2026-08-22T14:07:10+00:00",
+        "verdict": "ALERT"
       },
       "state_data": {}
     },
@@ -965,22 +1009,22 @@
     "thesis-tracker": {
       "brief_count": 0,
       "briefs": [],
+      "last_run": "2026-08-22T16:00:00+00:00",
       "latest_brief": {
+        "cap_words": 6818,
         "date": "2026-08-22",
-        "time_utc": "16:00",
+        "decisions_pending": 4,
         "outbox_path": "/opt/data/agents/thesis-tracker/outbox/2026-08-22.md",
-        "verdict": "OK",
-        "thesis_half": "both",
         "satellite_commits_24h": 5,
         "substrate_commits_24h": 5,
+        "substrate_p0_pending": 19,
         "substrate_tasks_done": 54,
         "substrate_tasks_total": 87,
-        "substrate_p0_pending": 19,
-        "cap_words": 6818,
-        "decisions_pending": 4
+        "thesis_half": "both",
+        "time_utc": "16:00",
+        "verdict": "OK"
       },
-      "state_data": {},
-      "last_run": "2026-08-22T16:00:00+00:00"
+      "state_data": {}
     }
   },
   "brief_history": [
@@ -1143,8 +1187,8 @@
         "webhook_id": "mp-002"
       }
     ],
-    "webhook_log_count": 48,
-    "last_devops_run": "2026-08-22T13:00:16+00:00"
+    "last_devops_run": "2026-08-22T13:00:16+00:00",
+    "webhook_log_count": 48
   },
   "last_updated": "2026-08-23T02:01:39+00:00",
   "metrics": {
