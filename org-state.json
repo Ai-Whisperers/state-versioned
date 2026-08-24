@@ -281,7 +281,7 @@
         }
       ],
       "latest_brief": {
-        "tick": 1,
+        "tick": 3,
         "n_today": 1,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-24.md",
         "findings": "NO VIOLATIONS"
