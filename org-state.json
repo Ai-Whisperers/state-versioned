@@ -281,7 +281,7 @@
         }
       ],
       "latest_brief": {
-        "tick": 3,
+        "tick": 5,
         "n_today": 1,
         "path": "/opt/data/agents/ai-safety-engineer-30min/outbox/2026-08-24.md",
         "findings": "NO VIOLATIONS"
@@ -672,7 +672,7 @@
       "state_data": {}
     },
     "devops-monitor-30min": {
-      "brief_count": 7,
+      "brief_count": 9,
       "briefs": [
         {
           "date": "2026-08-23-0930",
@@ -741,76 +741,99 @@
           "status": "ALERT",
           "subdir": "outbox",
           "tick": 77
+        },
+        {
+          "date": "2026-08-24",
+          "modified": "2026-08-24T01:05:30+00:00",
+          "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-24-0101-brief.md",
+          "size_bytes": 2762,
+          "subdir": "outbox",
+          "tick": 78,
+          "status": "ALERT",
+          "deltas": [
+            "HTTP 402 set steady 16 (no new admissions, no recoveries; 13 cerebras payment, 3 minimax-m3)",
+            "Bridge POSTs 30m 1875 -> 0 (silent since Aug 23 16:01 UTC; quiet hours, no alert traffic)",
+            "Gateway RSS 602 -> 638 MiB (+36 MiB, leak slowing vs +58 prev tick)",
+            "MCP churn zero 30m (was 149/15 servers); load-1 3.48 -> 1.78",
+            "Executions 30m: 1000 total, 0 errors, 5 with 402 string"
+          ]
         }
       ],
       "last_run": "2026-08-23T23:02:55.878202+00:00",
-      "latest_brief": {
-        "date": "2026-08-23",
-        "modified": "2026-08-23T23:02:55.878202+00:00",
-        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-23-2301-brief.md",
-        "size_bytes": 8617,
-        "subdir": "outbox",
-        "tick": 77,
-        "status": "ALERT",
-        "deltas": [
-          "HTTP 402 set 15 -> 16 (thesis-git-maintenance newly in error, Cerebras bucket 12 -> 13)",
-          "OAuthNonInteractive 27 -> 39 lifetime (+12 in 30min, comfy-cloud RE-ESCALATED 7/30min was 3)",
-          "MCP parked events 80 -> 149/30min; unique 13 -> 15 (twilio_mcp joined)",
-          "gateway RSS 544 -> 602 MiB (+58 MiB in 30min, possible leak)",
-          "load-1 1.91 -> 3.48 (MCP parking churn burst)"
-        ]
-      },
+      "latest_brief": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-24-0201-brief.md",
       "state_data": {
-        "tick": 77,
+        "tick": 78,
         "bridge_pid": 3713061,
-        "bridge_uptime_h": 29.85,
-        "bridge_rss_mb": 45.9,
-        "bridge_log_lines": 107883,
-        "bridge_post_delta_30m": 1875,
+        "bridge_uptime_h": 31.85,
+        "bridge_rss_mb": 45.7,
+        "bridge_log_lines": 115428,
+        "bridge_post_delta_30m": 0,
+        "bridge_get_delta_30m": 1787,
+        "bridge_last_post_log_ts": "2026-08-23T16:01:12Z",
         "gateway_pid": 3714173,
         "gateway_heartbeat_age_s": 28,
-        "gateway_rss_mb": 601.5,
-        "gateway_uptime_h": 29.83,
+        "gateway_rss_mb": 637.5,
+        "gateway_uptime_h": 31.82,
         "docker_down": true,
-        "dockdown_h": 44,
+        "dockdown_h": 45,
         "mcp_oauth_errors_lifetime": 39,
-        "mcp_oauth_errors_30m": 4,
-        "mcp_parked_servers_30m": 15,
-        "mcp_parked_events_30m": 149,
-        "disk_pct": 20,
-        "mem_used_gib": 5.14,
+        "mcp_oauth_errors_30m": 0,
+        "mcp_parked_servers_30m": 0,
+        "mcp_parked_events_30m": 0,
+        "disk_pct": 21,
+        "mem_used_gib": 4.7,
         "mem_total_gib": 7.75,
-        "load_1m": 3.48,
-        "load_5m": 2.19,
-        "load_15m": 1.48,
-        "canonical_jobs_mtime": "2026-08-23T23:00:46Z",
-        "gateway_jobs_mtime": "2026-08-23T22:57:15Z",
-        "cron_drift_seconds": 211,
-        "cron_drift_human": "0h03m31s",
+        "load_1m": 1.78,
+        "load_5m": 1.54,
+        "load_15m": 1.44,
+        "canonical_jobs_mtime": "2026-08-24T01:01:06Z",
+        "gateway_jobs_mtime": "2026-08-24T01:04:28Z",
+        "cron_drift_seconds": 30,
+        "cron_drift_human": "0h00m30s",
         "jobs_in_error": 21,
         "litellm_402_jobs": 16,
+        "executions_30m": 1000,
+        "executions_err_30m": 0,
+        "executions_402_30m": 5,
+        "bridge_post_drop_1800_to_0": true,
         "new_findings_this_tick": [
-          "thesis_git_maintenance_new_cerebras_402",
-          "gateway_rss_growth_58mib_in_30min",
-          "mcp_parking_churn_acceleration_149_events_30min",
-          "twilio_mcp_joined_parked_list",
-          "comfy_cloud_oauth_re_escalated_7_in_30min_was_3"
+          "bridge_post_drop_silent_quiet_hours",
+          "gateway_rss_growth_slowing_36mib_30min",
+          "mcp_oauth_churn_quiet_zero_30m",
+          "load_normalized_3.48_to_1.78"
         ],
         "persistent_alerts": [
           "rubiconeas_front_expired_request_day_6",
-          "ometzdental_404_no_fallback_16h",
+          "ometzdental_404_no_fallback_17h",
           "rubicon_eas_404_stable",
-          "docker_down_44h",
+          "docker_down_45h",
           "venv_broken_33h",
           "cron_path_guard_false_positive_2",
           "lead_worker_test_mode_unchanged",
           "deliver_none_cron_jobs",
           "departments_03_spec_missing",
-          "state_json_counters_stale_2d21h",
-          "comfy_cloud_oauth_re_escalated"
+          "state_json_counters_stale_2d22h",
+          "comfy_cloud_oauth_re_escalated",
+          "bridge_post_silent_9h"
         ]
       },
-      "status": "ALERT"
+      "status": "ALERT",
+      "last_brief": {
+        "date": "2026-08-24",
+        "modified": "2026-08-24T01:05:30+00:00",
+        "path": "/opt/data/agents/devops-monitor-30min/outbox/2026-08-24-0101-brief.md",
+        "size_bytes": 2762,
+        "subdir": "outbox",
+        "tick": 78,
+        "status": "ALERT",
+        "deltas": [
+          "HTTP 402 set steady 16 (no new admissions, no recoveries; 13 cerebras payment, 3 minimax-m3)",
+          "Bridge POSTs 30m 1875 -> 0 (silent since Aug 23 16:01 UTC; quiet hours, no alert traffic)",
+          "Gateway RSS 602 -> 638 MiB (+36 MiB, leak slowing vs +58 prev tick)",
+          "MCP churn zero 30m (was 149/15 servers); load-1 3.48 -> 1.78",
+          "Executions 30m: 1000 total, 0 errors, 5 with 402 string"
+        ]
+      }
     },
     "engineering-roster": {
       "brief_count": 2,
@@ -1190,7 +1213,7 @@
     "last_run_ts": "2026-08-21T04:00:31.668561+00:00",
     "last_total": 1,
     "pass_rate_pct": 86.6,
-    "devops-monitor-30min_last_tick": 71
+    "devops-monitor-30min_last_tick": 82
   },
   "global": {
     "coaching": {
@@ -1327,7 +1350,7 @@
         "webhook_id": "mp-002"
       }
     ],
-    "last_devops_run": "2026-08-23T23:02:55.878202+00:00",
+    "last_devops_run": "2026-08-24T02:02:57.201317+00:00",
     "webhook_log_count": 48,
     "updated_at": "2026-08-23T23:02:55.878202+00:00"
   },
